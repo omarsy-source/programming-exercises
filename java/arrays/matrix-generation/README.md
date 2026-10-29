@@ -1,5 +1,7 @@
 # Matrix Generation
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [arrays](../README.md) · [Compiler source list](sources.txt)
+
 Creates and displays a square matrix.
 
 Compiles with JDK 17.
