@@ -1,5 +1,7 @@
 # Generics And Collections
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [collections](../README.md) · [Compiler source list](sources.txt)
+
 Generic pairs, collection operations, maps, and drinks.
 
 Compiles with JDK 17.
