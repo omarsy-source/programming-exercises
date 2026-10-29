@@ -1,5 +1,7 @@
 # Arithmetic Input And Bmi
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [basics](../README.md) · [Compiler source list](sources.txt)
+
 Arithmetic expressions, swapping values, addition, and BMI input.
 
 Compiles with JDK 17.
