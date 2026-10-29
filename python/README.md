@@ -22,7 +22,11 @@ Open a terminal in this folder and run, for example:
 python friends_list.py
 ```
 
-Use `python3` instead if required by your installation. All seven scripts were compared with their original versions using representative input; output matched. The time example retains `eval()` input and its uncalled calculation function, and the user-management example retains its sample dictionary keys.
+Use `python3` instead if required by your installation.
+
+## Validation and retained behavior
+
+All seven scripts were compared with their original versions using representative input; output matched. The time example retains `eval()` input and its uncalled calculation function, and the user-management example retains its sample dictionary keys.
 
 ## Friends-list example
 
