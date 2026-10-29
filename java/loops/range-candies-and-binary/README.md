@@ -1,5 +1,7 @@
 # Range Candies And Binary
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [loops](../README.md) · [Compiler source list](sources.txt)
+
 Descending ranges, increasing candy prices, and decimal-to-binary conversion.
 
 Compiles with JDK 17.
