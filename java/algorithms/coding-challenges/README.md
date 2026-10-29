@@ -1,5 +1,7 @@
 # Coding Challenges
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [algorithms](../README.md) · [Compiler source list](sources.txt)
+
 Small algorithm and numeric challenge solutions.
 
 Compiles with JDK 17.
