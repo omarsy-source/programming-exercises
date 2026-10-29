@@ -1,5 +1,7 @@
 # Scratch Snippet
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [basics](../README.md) · [Compiler source list](sources.txt)
+
 An existing short practice snippet.
 
 The complete group has existing build limitations; see below.
