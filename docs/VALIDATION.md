@@ -1,5 +1,7 @@
 # Validation
 
+[Collection](../README.md) · [Java projects](../java/README.md) · [SQL scripts](../sql/README.md) · [Python exercises](../python/README.md)
+
 Validation was performed on 29 October 2026 using JDK 17 and Python 3.
 
 ## Scope
