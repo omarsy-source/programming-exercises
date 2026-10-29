@@ -1,5 +1,7 @@
 # State And Decorators
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [oop](../README.md) · [Compiler source list](sources.txt)
+
 Shared state, logging, character buffs, and item decorators.
 
 Compiles with JDK 17.
