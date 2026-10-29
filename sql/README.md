@@ -6,6 +6,10 @@ Fifteen independent MySQL-style scripts covering schema design, relationships, d
 
 Database, table, column, and literal values retain their original spelling, so existing relationships and query behavior are preserved.
 
+## Script index
+
+### Relationships
+
 | Script | Focus |
 | --- | --- |
 | [research_groups.sql](relationships/research_groups.sql) | Links research groups and lecturers using a foreign key. |
@@ -14,6 +18,11 @@ Database, table, column, and literal values retain their original spelling, so e
 | [levels_and_obstacles.sql](relationships/levels_and_obstacles.sql) | Links levels and obstacles; deleting a level also deletes its obstacles. |
 | [hardware_specialization.sql](relationships/hardware_specialization.sql) | Models the properties of different hardware types in separate tables. |
 | [university_roles.sql](relationships/university_roles.sql) | Stores different university roles in one shared table. |
+
+### Schemas and queries
+
+| Script | Focus |
+| --- | --- |
 | [image_missions.sql](schemas/image_missions.sql) | Links users, missions, images, views, and ratings. |
 | [fitness_studio.sql](schemas/fitness_studio.sql) | Links members, training plans, and exercises through their keys. |
 | [app_store_hub.sql](schemas/app_store_hub.sql) | Models users, developers, apps, downloads, ratings, and subscriptions. |
