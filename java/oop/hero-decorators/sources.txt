@@ -1,0 +1,8 @@
+src/DecoratorHero/ArmorDecorator.java
+src/DecoratorHero/BaseDecorator.java
+src/DecoratorHero/BaseHero.java
+src/DecoratorHero/FireDecorator.java
+src/DecoratorHero/Hero.java
+src/DecoratorHero/HeroMain.java
+src/DecoratorHero/SwordDecorator.java
+src/module-info.java
