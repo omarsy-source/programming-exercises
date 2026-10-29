@@ -1,5 +1,7 @@
 # Hero Decorators
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [oop](../README.md) · [Compiler source list](sources.txt)
+
 Stacking equipment decorators around a hero.
 
 Compiles with JDK 17.
