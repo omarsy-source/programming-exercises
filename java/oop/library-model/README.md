@@ -1,5 +1,7 @@
 # Library Model
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [oop](../README.md) · [Compiler source list](sources.txt)
+
 Books, a library model, and an application entry point.
 
 Compiles with JDK 17.
