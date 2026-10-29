@@ -1,5 +1,7 @@
 # People And Inheritance
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [oop](../README.md) · [Compiler source list](sources.txt)
+
 Person, Student, and Teacher inheritance exercises.
 
 Compiles with JDK 17.
