@@ -1,5 +1,7 @@
 # Geometry Dash
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [games](../README.md) · [Compiler source list](sources.txt)
+
 Java Swing scrolling game with collisions and events.
 
 Compiles with JDK 17.
