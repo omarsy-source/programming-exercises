@@ -1,5 +1,7 @@
 # Number Sequence
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [loops](../README.md) · [Compiler source list](sources.txt)
+
 Prints the integers from 1 to the supplied upper limit.
 
 Compiles with JDK 17.
