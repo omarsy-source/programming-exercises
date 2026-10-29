@@ -21,3 +21,13 @@ python friends_list.py
 ```
 
 Use `python3` instead if required by your installation. All seven scripts were compared with their original versions using representative input; output matched. The time example retains `eval()` input and its uncalled calculation function, and the user-management example retains its sample dictionary keys.
+
+## Friends-list example
+
+Run `friends_list.py`, enter `Omar`, then `Lina`, then press Enter without typing a name. The script displays the list after each name and finishes with:
+
+```text
+['Lina', 'Omar']
+```
+
+An empty first input finishes immediately and prints `[]`.
