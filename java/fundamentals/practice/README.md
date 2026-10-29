@@ -1,5 +1,7 @@
 # Practice
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [fundamentals](../README.md) · [Compiler source list](sources.txt)
+
 Foundational examples grouped by conditions, loops, arrays, methods, exceptions, and tests.
 
 The complete group has existing build limitations; see below.
