@@ -24,6 +24,18 @@ Run one of the entry points listed above, for example:
 java -cp out gitHub.NumberSequence
 ```
 
+## Input and output
+
+Enter a whole number when prompted with `Geben Sie eine Zahl ein:`.
+
+| Input | Numbers printed after the prompt |
+| --- | --- |
+| `5` | `1 2 3 4 5` |
+| `1` | `1` |
+| `0` or a negative integer | No numbers |
+
+The program prints each number followed by a space. It does not calculate a sum. Nonnumeric input is not handled by the program and causes `Scanner.nextInt()` to throw an input-mismatch exception.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
