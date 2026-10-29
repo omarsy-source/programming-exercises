@@ -1,0 +1,8 @@
+src/easy/AreaOfSquare.java
+src/easy/FastingHours.java
+src/easy/Forms.java
+src/easy/PrimesBetween.java
+src/easy/Qs.java
+src/easy/TwoSum.java
+src/easy/sumEid.java
+src/module-info.java
