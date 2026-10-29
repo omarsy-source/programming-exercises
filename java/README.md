@@ -34,3 +34,11 @@ Each project has its own `src` directory, compile instructions, and list of entr
 | strings | [digits-and-letter-replacement](strings/digits-and-letter-replacement/README.md) | 2 | Compiles |
 | strings | [regular-expressions](strings/regular-expressions/README.md) | 2 | Compiles |
 | testing | [max-value-test](testing/max-value-test/README.md) | 1 | Existing incomplete example / missing dependencies |
+
+## Reading the build status
+
+The table summarizes the [29 October 2026 validation with JDK 17](../docs/VALIDATION.md).
+
+- **Compiles:** the complete source group compiled; this does not mean every runtime path or graphical interaction was tested.
+- **Production subset compiles:** application sources compiled separately, while test sources require additional dependencies.
+- **Existing incomplete example / missing dependencies:** the original group already had a build limitation; follow its project README for details.
