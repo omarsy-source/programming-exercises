@@ -21,6 +21,8 @@ javac -encoding UTF-8 -d out @sources.txt
 java -cp out PACKAGE_NAME.CLASS_NAME
 ```
 
+`PACKAGE_NAME.CLASS_NAME` is a placeholder: replace it with an entry point from the selected project's README (for example, `gitHub.NumberSequence` in [Number Sequence](java/loops/number-sequence/README.md)). Run the compile command inside that project folder so `sources.txt` resolves correctly.
+
 Python scripts run with `python filename.py`. SQL scripts target MySQL; follow the [SQL instructions](sql/README.md), including each script's existing database assumptions.
 
 ## Learning notes
