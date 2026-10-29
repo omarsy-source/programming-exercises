@@ -1,5 +1,7 @@
 # Digits And Letter Replacement
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [strings](../README.md) · [Compiler source list](sources.txt)
+
 Number-to-word conversion and case-insensitive letter replacement.
 
 Compiles with JDK 17.
