@@ -1,5 +1,7 @@
 # Bubble Sort
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [algorithms](../README.md) · [Compiler source list](sources.txt)
+
 Bubble sort and related practice code.
 
 Compiles with JDK 17.
