@@ -1,5 +1,7 @@
 # Grade File Statistics
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [files](../README.md) · [Compiler source list](sources.txt)
+
 Reads grade data from an external text file.
 
 Compiles with JDK 17.
