@@ -1,5 +1,7 @@
 # Interfaces And Plugins
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [oop](../README.md) · [Compiler source list](sources.txt)
+
 Form elements, storage interfaces, vehicles, and plugins.
 
 Compiles with JDK 17.
