@@ -1,5 +1,7 @@
 # Threads And Merge Sort
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [algorithms](../README.md) · [Compiler source list](sources.txt)
+
 Threads, a countdown, and merge sort.
 
 Compiles with JDK 17.
