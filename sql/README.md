@@ -1,5 +1,7 @@
 # SQL exercises
 
+[Back to the collection](../README.md)
+
 Fifteen independent MySQL-style scripts covering schema design, relationships, demo data, joins, and grouped queries. Filenames and folders use English; simple German comments explain the SQL steps.
 
 Database, table, column, and literal values retain their original spelling, so existing relationships and query behavior are preserved.
