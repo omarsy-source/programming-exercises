@@ -1,0 +1,15 @@
+# Loops
+
+[Collection](../../README.md) / [Java index](../README.md)
+
+## Projects
+
+| Project | Java files | Import build status |
+| --- | ---: | --- |
+| [calculator-and-patterns](calculator-and-patterns/README.md) | 2 | Compiles |
+| [number-sequence](number-sequence/README.md) | 1 | Compiles |
+| [range-candies-and-binary](range-candies-and-binary/README.md) | 3 | Compiles |
+
+Open a project's README for its source files and entry points. Build each project from its own folder; source groups are independent.
+
+Build statuses describe the [29 October 2026 validation](../../docs/VALIDATION.md). A successful compilation does not imply comprehensive runtime testing.
