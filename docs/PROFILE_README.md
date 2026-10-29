@@ -1,3 +1,5 @@
+> **Profile copy:** This document is a saved profile introduction. The published version lives in [omarsy-source/omarsy-source](https://github.com/omarsy-source/omarsy-source/blob/main/README.md) and appears on [my GitHub profile](https://github.com/omarsy-source).
+
 # Hi, I'm Omar
 
 Applied Computer Science student at **Hochschule Flensburg, Germany**.
