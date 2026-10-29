@@ -1,5 +1,7 @@
 # Python exercises
 
+[Back to the collection](../README.md)
+
 Seven independent console exercises using the Python standard library. Identifiers use English; comments use simple German.
 
 | Script | Purpose |
