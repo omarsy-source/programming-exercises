@@ -1,5 +1,7 @@
 # Random Array Statistics
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [arrays](../README.md) · [Compiler source list](sources.txt)
+
 Random arrays, sums, means, and a console menu.
 
 Compiles with JDK 17.
