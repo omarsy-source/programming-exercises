@@ -1,0 +1,1930 @@
+[
+  {
+    "source": "Pro/Java 2/Spiele/src/module-info.java",
+    "destination": "java/oop/hero-decorators/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Spiele/src/DecoratorHero/HeroMain.java",
+    "destination": "java/oop/hero-decorators/src/DecoratorHero/HeroMain.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Spiele/src/DecoratorHero/ArmorDecorator.java",
+    "destination": "java/oop/hero-decorators/src/DecoratorHero/ArmorDecorator.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Spiele/src/DecoratorHero/BaseDecorator.java",
+    "destination": "java/oop/hero-decorators/src/DecoratorHero/BaseDecorator.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Spiele/src/DecoratorHero/Hero.java",
+    "destination": "java/oop/hero-decorators/src/DecoratorHero/Hero.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Spiele/src/DecoratorHero/BaseHero.java",
+    "destination": "java/oop/hero-decorators/src/DecoratorHero/BaseHero.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Spiele/src/DecoratorHero/FireDecorator.java",
+    "destination": "java/oop/hero-decorators/src/DecoratorHero/FireDecorator.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Spiele/src/DecoratorHero/SwordDecorator.java",
+    "destination": "java/oop/hero-decorators/src/DecoratorHero/SwordDecorator.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche01/src/module-info.java",
+    "destination": "java/oop/library-model/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche01/src/model/Library.java",
+    "destination": "java/oop/library-model/src/model/Library.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche01/src/model/Book.java",
+    "destination": "java/oop/library-model/src/model/Book.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche01/src/app/Main.java",
+    "destination": "java/oop/library-model/src/app/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche02/src/module-info.java",
+    "destination": "java/oop/people-and-inheritance/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche02/src/aufgabe1/Main.java",
+    "destination": "java/oop/people-and-inheritance/src/Exercise1/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche02/src/aufgabe1/Teacher.java",
+    "destination": "java/oop/people-and-inheritance/src/Exercise1/Teacher.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche02/src/aufgabe1/Person.java",
+    "destination": "java/oop/people-and-inheritance/src/Exercise1/Person.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche02/src/aufgabe1/Student.java",
+    "destination": "java/oop/people-and-inheritance/src/Exercise1/Student.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche03/src/module-info.java",
+    "destination": "java/exceptions/exception-handling-and-grades/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche03/src/aufgabe03/Main.java",
+    "destination": "java/exceptions/exception-handling-and-grades/src/Exercise03/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche03/src/aufgabe03/StudentGradeCalculator.java",
+    "destination": "java/exceptions/exception-handling-and-grades/src/Exercise03/StudentGradeCalculator.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche03/src/aufgabe02/Main.java",
+    "destination": "java/exceptions/exception-handling-and-grades/src/Exercise02/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche03/src/aufgabe02/InvalidInputException.java",
+    "destination": "java/exceptions/exception-handling-and-grades/src/Exercise02/InvalidInputException.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche03/src/aufgabe01/grundlegendeBehandlungVonExcetions.java",
+    "destination": "java/exceptions/exception-handling-and-grades/src/Exercise01/BasicExceptionHandling.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe03/Main.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise03/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe03/Refuelabe.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise03/Refuelabe.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe03/Vehicle.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise03/Vehicle.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe03/Bicycle.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise03/Bicycle.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe03/Car.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise03/Car.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe04/Main.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise04/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe04/Plugin.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise04/Plugin.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe04/BackupPlugin.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise04/BackupPlugin.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe04/UpdatePlugin.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise04/UpdatePlugin.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe02/MemoryStorage.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise02/MemoryStorage.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe02/Main.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise02/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe02/FileStorage.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise02/FileStorage.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe02/Storage.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise02/Storage.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe01/Main.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise01/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe01/FormElement.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise01/FormElement.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe01/TextField.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise01/TextField.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche04/src/Aufgabe01/Button.java",
+    "destination": "java/oop/interfaces-and-plugins/src/Exercise01/Button.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche05/src/Aufgabe03/Drink.java",
+    "destination": "java/collections/generics-and-collections/src/Exercise03/Drink.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche05/src/Aufgabe03/Main.java",
+    "destination": "java/collections/generics-and-collections/src/Exercise03/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche05/src/Aufgabe03/Beer.java",
+    "destination": "java/collections/generics-and-collections/src/Exercise03/Beer.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche05/src/Aufgabe03/Juice.java",
+    "destination": "java/collections/generics-and-collections/src/Exercise03/Juice.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche05/src/Aufgabe04/hash.java",
+    "destination": "java/collections/generics-and-collections/src/Exercise04/HashExample.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche05/src/Aufgabe02/Main.java",
+    "destination": "java/collections/generics-and-collections/src/Exercise02/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche05/src/Aufgabe01/Pair.java",
+    "destination": "java/collections/generics-and-collections/src/Exercise01/Pair.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche05/src/Aufgabe01/Main.java",
+    "destination": "java/collections/generics-and-collections/src/Exercise01/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/module-info.java",
+    "destination": "java/oop/state-and-decorators/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe03/Main.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise03/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe03/SpeedBuff.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise03/SpeedBuff.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe03/BaseCharacter.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise03/BaseCharacter.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe03/ArmorBuff.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise03/ArmorBuff.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe03/StrengthBuff.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise03/StrengthBuff.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe03/Character.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise03/Character.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Challenge/CursedItem.java",
+    "destination": "java/oop/state-and-decorators/src/Challenge/CursedItem.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Challenge/GameStats.java",
+    "destination": "java/oop/state-and-decorators/src/Challenge/GameStats.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Challenge/Main.java",
+    "destination": "java/oop/state-and-decorators/src/Challenge/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Challenge/GameManager.java",
+    "destination": "java/oop/state-and-decorators/src/Challenge/GameManager.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Challenge/EnchantedItem.java",
+    "destination": "java/oop/state-and-decorators/src/Challenge/EnchantedItem.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Challenge/Item.java",
+    "destination": "java/oop/state-and-decorators/src/Challenge/Item.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Challenge/BasicItem.java",
+    "destination": "java/oop/state-and-decorators/src/Challenge/BasicItem.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Challenge/LegendaryItem.java",
+    "destination": "java/oop/state-and-decorators/src/Challenge/LegendaryItem.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe02/Logger.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise02/Logger.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe02/LoggerSystemMain.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise02/LoggerSystemMain.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe01/Main.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise01/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe01/GameStatistics.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise01/GameStatistics.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche06/src/Aufgabe01/Player.java",
+    "destination": "java/oop/state-and-decorators/src/Exercise01/Player.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche07/src/module-info.java",
+    "destination": "java/algorithms/threads-and-merge-sort/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche07/src/Aufgabe03/Main.java",
+    "destination": "java/algorithms/threads-and-merge-sort/src/Exercise03/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche07/src/Aufgabe03/MergeSort.java",
+    "destination": "java/algorithms/threads-and-merge-sort/src/Exercise03/MergeSort.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche07/src/Aufgabe02/Main.java",
+    "destination": "java/algorithms/threads-and-merge-sort/src/Exercise02/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche07/src/Aufgabe02/Countdown.java",
+    "destination": "java/algorithms/threads-and-merge-sort/src/Exercise02/Countdown.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche07/src/Aufgabe01/Main.java",
+    "destination": "java/algorithms/threads-and-merge-sort/src/Exercise01/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/Woche07/src/Aufgabe01/Bell.java",
+    "destination": "java/algorithms/threads-and-merge-sort/src/Exercise01/Bell.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/aufgaben/src/module-info.java",
+    "destination": "java/algorithms/bubble-sort/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/aufgaben/src/aufgaben01/traning.java",
+    "destination": "java/algorithms/bubble-sort/src/exercises01/Practice.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/aufgaben/src/aufgaben01/Bubble_Sort.java",
+    "destination": "java/algorithms/bubble-sort/src/exercises01/BubbleSort.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/aufgabe01/a01.java",
+    "destination": "java/basics/arithmetic-and-arrays/src/Exercise01/Exercise01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/aufgabe01/a03.java",
+    "destination": "java/basics/arithmetic-and-arrays/src/Exercise01/Exercise03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/aufgabe01/a04.java",
+    "destination": "java/basics/arithmetic-and-arrays/src/Exercise01/Exercise04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/module-info.java",
+    "destination": "java/oop/worked-examples/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Decorator/ExclamationDecorator.java",
+    "destination": "java/oop/worked-examples/src/Decorator/ExclamationDecorator.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Decorator/Main.java",
+    "destination": "java/oop/worked-examples/src/Decorator/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Decorator/UpperCaseDecorator.java",
+    "destination": "java/oop/worked-examples/src/Decorator/UpperCaseDecorator.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Decorator/TextFormatter.java",
+    "destination": "java/oop/worked-examples/src/Decorator/TextFormatter.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Decorator/PlainText.java",
+    "destination": "java/oop/worked-examples/src/Decorator/PlainText.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_bank/Main.java",
+    "destination": "java/oop/worked-examples/src/oop_bank/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_bank/Account.java",
+    "destination": "java/oop/worked-examples/src/oop_bank/Account.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop2/Main.java",
+    "destination": "java/oop/worked-examples/src/oop2/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop2/Circle.java",
+    "destination": "java/oop/worked-examples/src/oop2/Circle.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/ArrayList/arraylis01.java",
+    "destination": "java/oop/worked-examples/src/ArrayList/ArrayList01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/ArrayList/arraylist03.java",
+    "destination": "java/oop/worked-examples/src/ArrayList/ArrayList03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/ArrayList/arraylist02.java",
+    "destination": "java/oop/worked-examples/src/ArrayList/ArrayList02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_Library/Main.java",
+    "destination": "java/oop/worked-examples/src/oop_Library/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_Library/Library.java",
+    "destination": "java/oop/worked-examples/src/oop_Library/Library.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_Library/Book.java",
+    "destination": "java/oop/worked-examples/src/oop_Library/Book.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_student/Main.java",
+    "destination": "java/oop/worked-examples/src/oop_student/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_student/UndergradStudent.java",
+    "destination": "java/oop/worked-examples/src/oop_student/UndergradStudent.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_student/Student.java",
+    "destination": "java/oop/worked-examples/src/oop_student/Student.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_car/Main.java",
+    "destination": "java/oop/worked-examples/src/oop_car/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_car/SportsCar.java",
+    "destination": "java/oop/worked-examples/src/oop_car/SportsCar.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_car/Car.java",
+    "destination": "java/oop/worked-examples/src/oop_car/Car.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_animal/Main.java",
+    "destination": "java/oop/worked-examples/src/oop_animal/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_animal/Dogs.java",
+    "destination": "java/oop/worked-examples/src/oop_animal/Dogs.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_animal/Birds.java",
+    "destination": "java/oop/worked-examples/src/oop_animal/Birds.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_animal/Animal.java",
+    "destination": "java/oop/worked-examples/src/oop_animal/Animal.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop_animal/Cats.java",
+    "destination": "java/oop/worked-examples/src/oop_animal/Cats.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Singleton01/Logger.java",
+    "destination": "java/oop/worked-examples/src/Singleton01/Logger.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Singleton01/AppConfigMain.java",
+    "destination": "java/oop/worked-examples/src/Singleton01/AppConfigMain.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Singleton01/AppConfig.java",
+    "destination": "java/oop/worked-examples/src/Singleton01/AppConfig.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Singleton01/LoggerMain.java",
+    "destination": "java/oop/worked-examples/src/Singleton01/LoggerMain.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/staticbeispiele/CounterMain.java",
+    "destination": "java/oop/worked-examples/src/staticexamples/CounterMain.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/staticbeispiele/Counter.java",
+    "destination": "java/oop/worked-examples/src/staticexamples/Counter.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/staticbeispiele/MathUtilsMain.java",
+    "destination": "java/oop/worked-examples/src/staticexamples/MathUtilsMain.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/staticbeispiele/MathUtils.java",
+    "destination": "java/oop/worked-examples/src/staticexamples/MathUtils.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/Rechteck.java",
+    "destination": "java/oop/worked-examples/src/general/Rectangle.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/Main.java",
+    "destination": "java/oop/worked-examples/src/general/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/Teacher.java",
+    "destination": "java/oop/worked-examples/src/general/Teacher.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/Printable.java",
+    "destination": "java/oop/worked-examples/src/general/Printable.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/Kreis.java",
+    "destination": "java/oop/worked-examples/src/general/Circle.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/beispiel01.java",
+    "destination": "java/oop/worked-examples/src/general/Example01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/Person.java",
+    "destination": "java/oop/worked-examples/src/general/Person.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/Form.java",
+    "destination": "java/oop/worked-examples/src/general/Shape.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Allgemein/Student.java",
+    "destination": "java/oop/worked-examples/src/general/Student.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Wiederholung/beispiel01.java",
+    "destination": "java/oop/worked-examples/src/review/Example01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/HashMap/hashmap01.java",
+    "destination": "java/oop/worked-examples/src/HashMap/HashMap01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop1/Main.java",
+    "destination": "java/oop/worked-examples/src/oop1/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop1/Car.java",
+    "destination": "java/oop/worked-examples/src/oop1/Car.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop/Main.java",
+    "destination": "java/oop/worked-examples/src/oop/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/oop/Student.java",
+    "destination": "java/oop/worked-examples/src/oop/Student.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Generic/Main.java",
+    "destination": "java/oop/worked-examples/src/Generic/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/Generic/Generic.java",
+    "destination": "java/oop/worked-examples/src/Generic/Generic.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/bankAccount/Main.java",
+    "destination": "java/oop/worked-examples/src/bankAccount/Main.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/beispiele/src/bankAccount/BankAccount.java",
+    "destination": "java/oop/worked-examples/src/bankAccount/BankAccount.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/leetcode/Solution/src/module-info.java",
+    "destination": "java/algorithms/coding-challenges/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/leetcode/Solution/src/easy/Forms.java",
+    "destination": "java/algorithms/coding-challenges/src/easy/Forms.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/leetcode/Solution/src/easy/sumEid.java",
+    "destination": "java/algorithms/coding-challenges/src/easy/sumEid.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/leetcode/Solution/src/easy/TwoSum.java",
+    "destination": "java/algorithms/coding-challenges/src/easy/TwoSum.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/leetcode/Solution/src/easy/AreaOfSquare.java",
+    "destination": "java/algorithms/coding-challenges/src/easy/AreaOfSquare.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/leetcode/Solution/src/easy/Qs.java",
+    "destination": "java/algorithms/coding-challenges/src/easy/Qs.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/leetcode/Solution/src/easy/PrimesBetween.java",
+    "destination": "java/algorithms/coding-challenges/src/easy/PrimesBetween.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/leetcode/Solution/src/easy/FastenStunde.java",
+    "destination": "java/algorithms/coding-challenges/src/easy/FastingHours.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/text/src/text/JSAK.java",
+    "destination": "java/basics/text-practice/src/text/JSAK.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Junit/src/TestMaxValue.java",
+    "destination": "java/testing/max-value-test/src/TestMaxValue.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/spiel/src/Spieler/Spieler.java",
+    "destination": "java/games/tic-tac-toe-variant/src/Player/Player.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/spiel/src/Spieler/TicTacToe.java",
+    "destination": "java/games/tic-tac-toe-variant/src/Player/TicTacToe.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Beispiele/Beispiel000.java",
+    "destination": "java/fundamentals/practice/src/examples/Example000.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Beispiele/Beispiel12.java",
+    "destination": "java/fundamentals/practice/src/examples/Example12.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Beispiele/Beispiel01.java",
+    "destination": "java/fundamentals/practice/src/examples/Example01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Beispiele/Beispiel08.java",
+    "destination": "java/fundamentals/practice/src/examples/Example08.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Beispiele/Beispiel14.java",
+    "destination": "java/fundamentals/practice/src/examples/Example14.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Beispiele/Beispiel02.java",
+    "destination": "java/fundamentals/practice/src/examples/Example02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Beispiele/Beispiel00.java",
+    "destination": "java/fundamentals/practice/src/examples/Example00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Beispiele/Beispiel13.java",
+    "destination": "java/fundamentals/practice/src/examples/Example13.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/BeispielThrowassert.java",
+    "destination": "java/fundamentals/practice/src/JUnit/ExampleThrowassert.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/Beispiel01test.java",
+    "destination": "java/fundamentals/practice/src/JUnit/Example01test.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/BeispielThrowasserttest.java",
+    "destination": "java/fundamentals/practice/src/JUnit/ExampleThrowasserttest.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/Beispiel00test1.java",
+    "destination": "java/fundamentals/practice/src/JUnit/Example00test1.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/Beispiel00test.java",
+    "destination": "java/fundamentals/practice/src/JUnit/Example00test.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/Beispiel01.java",
+    "destination": "java/fundamentals/practice/src/JUnit/Example01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/Beispiel02.java",
+    "destination": "java/fundamentals/practice/src/JUnit/Example02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/Beispiel00.java",
+    "destination": "java/fundamentals/practice/src/JUnit/Example00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/JUnit/Beispiel02Test.java",
+    "destination": "java/fundamentals/practice/src/JUnit/Example02Test.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if05.java",
+    "destination": "java/fundamentals/practice/src/Statments/if05.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/Bedienungsoperator00.java",
+    "destination": "java/fundamentals/practice/src/Statments/ConditionalOperator00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/switch04.java",
+    "destination": "java/fundamentals/practice/src/Statments/switch04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/switch05.java",
+    "destination": "java/fundamentals/practice/src/Statments/switch05.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/switch00.java",
+    "destination": "java/fundamentals/practice/src/Statments/switch00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/switch01.java",
+    "destination": "java/fundamentals/practice/src/Statments/switch01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if06.java",
+    "destination": "java/fundamentals/practice/src/Statments/if06.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if08.java",
+    "destination": "java/fundamentals/practice/src/Statments/if08.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/Bedienungsoperator01.java",
+    "destination": "java/fundamentals/practice/src/Statments/ConditionalOperator01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if04.java",
+    "destination": "java/fundamentals/practice/src/Statments/if04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if02.java",
+    "destination": "java/fundamentals/practice/src/Statments/if02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if01.java",
+    "destination": "java/fundamentals/practice/src/Statments/if01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if07.java",
+    "destination": "java/fundamentals/practice/src/Statments/if07.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if09.java",
+    "destination": "java/fundamentals/practice/src/Statments/if09.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/switch03.java",
+    "destination": "java/fundamentals/practice/src/Statments/switch03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/switch02.java",
+    "destination": "java/fundamentals/practice/src/Statments/switch02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if03.java",
+    "destination": "java/fundamentals/practice/src/Statments/if03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Statments/if00.java",
+    "destination": "java/fundamentals/practice/src/Statments/if00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/char_beispiele/char00.java",
+    "destination": "java/fundamentals/practice/src/characters/char00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Execptions/try02.java",
+    "destination": "java/fundamentals/practice/src/Execptions/try02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Execptions/try01.java",
+    "destination": "java/fundamentals/practice/src/Execptions/try01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Execptions/try00.java",
+    "destination": "java/fundamentals/practice/src/Execptions/try00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Methods/Medthod00.java",
+    "destination": "java/fundamentals/practice/src/Methods/Method00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Methods/Method02.java",
+    "destination": "java/fundamentals/practice/src/Methods/Method02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Methods/Medthod01.java",
+    "destination": "java/fundamentals/practice/src/Methods/Method01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR02.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While01.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR07.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR07.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While02.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While08.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While08.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR08.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR08.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While05.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While05.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR06.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR06.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While03.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While06.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While06.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR03.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR00.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR05.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR05.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While07.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While07.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While04.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/While00.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/While00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR01.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/LOOPS/FOR04.java",
+    "destination": "java/fundamentals/practice/src/LOOPS/FOR04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays00.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays00.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays09.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays09.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays02.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays06.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays06.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays03.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays04.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays01.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays05.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays05.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays07.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays07.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Traning/src/Arrays/Arrays08.java",
+    "destination": "java/fundamentals/practice/src/Arrays/Arrays08.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/gitHub2/src/gitHub/if_projekt.java",
+    "destination": "java/loops/number-sequence/src/gitHub/NumberSequence.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/omars/git/repository3/gitHub/src/gitHub/if_projekt.java",
+    "destination": "java/loops/number-sequence/src/gitHub/NumberSequence.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/omars/git/repository3/gitHub/src/gitHub/if_projekt.java",
+    "destination": "java/loops/number-sequence/src/gitHub/NumberSequence.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Aufgabe12/src/Aufgabe12/aufgabe02test.java",
+    "destination": "java/methods/array-helpers-and-tests/src/Exercise12/aufgabe02test.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Aufgabe13/src/Aufgabe12/aufgabe02test.java",
+    "destination": "java/methods/array-helpers-and-tests/src/Exercise12/aufgabe02test.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/Aufgabe12/src/Aufgabe12/aufgabe02test.java",
+    "destination": "java/methods/array-helpers-and-tests/src/Exercise12/aufgabe02test.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/Aufgabe12/src/Aufgabe12/aufgabe02test.java",
+    "destination": "java/methods/array-helpers-and-tests/src/Exercise12/aufgabe02test.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Aufgabe12/src/Aufgabe12/aufgabe02.java",
+    "destination": "java/methods/array-helpers-and-tests/src/Exercise12/Exercise02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Aufgabe13/src/Aufgabe12/aufgabe02.java",
+    "destination": "java/methods/array-helpers-and-tests/src/Exercise12/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/Aufgabe12/src/Aufgabe12/aufgabe02.java",
+    "destination": "java/methods/array-helpers-and-tests/src/Exercise12/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/Aufgabe12/src/Aufgabe12/aufgabe02.java",
+    "destination": "java/methods/array-helpers-and-tests/src/Exercise12/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/Launcher.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/Launcher.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/Launcher.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/Launcher.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/Launcher.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/Launcher.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/gfx/BackgroundLayer.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/BackgroundLayer.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/gfx/BackgroundLayer.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/BackgroundLayer.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/gfx/BackgroundLayer.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/BackgroundLayer.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/gfx/Animation.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/Animation.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/gfx/Animation.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/Animation.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/gfx/Animation.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/Animation.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/gfx/Sprite.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/Sprite.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/gfx/Sprite.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/Sprite.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/gfx/Sprite.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/gfx/Sprite.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/PlayerEffector.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/PlayerEffector.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/PlayerEffector.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/PlayerEffector.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/PlayerEffector.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/PlayerEffector.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/Collidable.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Collidable.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Collidable.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Collidable.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Collidable.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Collidable.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/MeinLevel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/GameLevel.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/MeinLevel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/GameLevel.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/MeinLevel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/GameLevel.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/GameObject.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/GameObject.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/GameObject.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/GameObject.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/GameObject.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/GameObject.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/Level.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Level.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Level.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Level.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Level.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Level.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/Plattform.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Platform.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Plattform.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Platform.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Plattform.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Platform.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/Spieler.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Player.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Spieler.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Player.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Spieler.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Player.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/Spike.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Spike.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Spike.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Spike.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Spike.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Spike.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/Updatable.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Updatable.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Updatable.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Updatable.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/Updatable.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/Updatable.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/model/PlayerState.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/PlayerState.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/PlayerState.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/PlayerState.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/model/PlayerState.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/model/PlayerState.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/ui/StartPanel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/StartPanel.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/ui/StartPanel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/StartPanel.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/ui/StartPanel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/StartPanel.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/ui/GamePanel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/GamePanel.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/ui/GamePanel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/GamePanel.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/ui/GamePanel.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/GamePanel.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/ui/EinstellungenDialog.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/SettingsDialog.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/ui/EinstellungenDialog.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/SettingsDialog.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/ui/EinstellungenDialog.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/ui/SettingsDialog.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/events/LevelCompleteEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/LevelCompleteEvent.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/LevelCompleteEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/LevelCompleteEvent.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/LevelCompleteEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/LevelCompleteEvent.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/events/EventBus.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/EventBus.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/EventBus.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/EventBus.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/EventBus.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/EventBus.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/events/PlayerDiedEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/PlayerDiedEvent.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/PlayerDiedEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/PlayerDiedEvent.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/PlayerDiedEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/PlayerDiedEvent.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/events/EffectorTriggeredEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/EffectorTriggeredEvent.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/EffectorTriggeredEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/EffectorTriggeredEvent.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/EffectorTriggeredEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/EffectorTriggeredEvent.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/events/GameEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/GameEvent.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/GameEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/GameEvent.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/events/GameEvent.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/events/GameEvent.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/engine/GameLoop.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/engine/GameLoop.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/engine/GameLoop.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/engine/GameLoop.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/engine/GameLoop.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/engine/GameLoop.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash-Synced/src/com/thehxlab/geometrydash/engine/CollisionEngine.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/engine/CollisionEngine.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/engine/CollisionEngine.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/engine/CollisionEngine.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/GeometryDash/GeometryDash/GeometryDash/src/com/thehxlab/geometrydash/engine/CollisionEngine.java",
+    "destination": "java/games/geometry-dash/src/com/thehxlab/geometrydash/engine/CollisionEngine.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/_pasted_code_/src/snippet/Snippet.java",
+    "destination": "java/basics/scratch-snippet/src/snippet/Snippet.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/_pasted_code_2/src/snippet/Snippet.java",
+    "destination": "java/basics/scratch-snippet/src/snippet/Snippet.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/_pasted_code_/src/snippet/Snippet.java",
+    "destination": "java/basics/scratch-snippet/src/snippet/Snippet.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/_pasted_code_/src/snippet/Snippet.java",
+    "destination": "java/basics/scratch-snippet/src/snippet/Snippet.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Java 2/TheoritscheInformatik/src/module-info.java",
+    "destination": "java/strings/regular-expressions/src/module-info.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Java 2/TheoritscheInformatik/src/Aufgabe01/regex.java",
+    "destination": "java/strings/regular-expressions/src/Exercise01/regex.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBaltt10/src/Aufgabe/Aufgabe10.java",
+    "destination": "java/arrays/matrix-generation/src/exercise/Exercise10.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBaltt11/src/Aufgabe/Aufgabe10.java",
+    "destination": "java/arrays/matrix-generation/src/exercise/Exercise10.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabeBaltt10/src/Aufgabe/Aufgabe10.java",
+    "destination": "java/arrays/matrix-generation/src/exercise/Exercise10.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabeBaltt10/src/Aufgabe/Aufgabe10.java",
+    "destination": "java/arrays/matrix-generation/src/exercise/Exercise10.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatt08/src/Aufgabe/Aufgabe02.java",
+    "destination": "java/arrays/random-array-statistics/src/exercise/Exercise02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabeBlatt08/src/Aufgabe/Aufgabe02.java",
+    "destination": "java/arrays/random-array-statistics/src/exercise/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabeBlatt08/src/Aufgabe/Aufgabe02.java",
+    "destination": "java/arrays/random-array-statistics/src/exercise/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatt08/src/Aufgabe/Aufgabe01.java",
+    "destination": "java/arrays/random-array-statistics/src/exercise/Exercise01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabeBlatt08/src/Aufgabe/Aufgabe01.java",
+    "destination": "java/arrays/random-array-statistics/src/exercise/Exercise01.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabeBlatt08/src/Aufgabe/Aufgabe01.java",
+    "destination": "java/arrays/random-array-statistics/src/exercise/Exercise01.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatt09/src/Aufgabe02/Spieler.java",
+    "destination": "java/games/tic-tac-toe/src/Exercise02/Player.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatt10/src/Aufgabe02/Spieler.java",
+    "destination": "java/games/tic-tac-toe/src/Exercise02/Player.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabeBlatt09/src/Aufgabe02/Spieler.java",
+    "destination": "java/games/tic-tac-toe/src/Exercise02/Player.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabeBlatt09/src/Aufgabe02/Spieler.java",
+    "destination": "java/games/tic-tac-toe/src/Exercise02/Player.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatt09/src/Aufgabe02/TicTacToe.java",
+    "destination": "java/games/tic-tac-toe/src/Exercise02/TicTacToe.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatt10/src/Aufgabe02/TicTacToe.java",
+    "destination": "java/games/tic-tac-toe/src/Exercise02/TicTacToe.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabeBlatt09/src/Aufgabe02/TicTacToe.java",
+    "destination": "java/games/tic-tac-toe/src/Exercise02/TicTacToe.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabeBlatt09/src/Aufgabe02/TicTacToe.java",
+    "destination": "java/games/tic-tac-toe/src/Exercise02/TicTacToe.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatt11/src/Aufgaben/Aufgabe01.java",
+    "destination": "java/files/grade-file-statistics/src/exercises/Exercise01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatt12/src/Aufgaben/Aufgabe01.java",
+    "destination": "java/files/grade-file-statistics/src/exercises/Exercise01.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabeBlatt11/src/Aufgaben/Aufgabe01.java",
+    "destination": "java/files/grade-file-statistics/src/exercises/Exercise01.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabeBlatt11/src/Aufgaben/Aufgabe01.java",
+    "destination": "java/files/grade-file-statistics/src/exercises/Exercise01.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt3/src/trennn/A7mona.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/addition/A7mona.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt02/src/trennn/A7mona.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/addition/A7mona.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabenBaltt02/src/trennn/A7mona.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/addition/A7mona.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabenBaltt02/src/trennn/A7mona.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/addition/A7mona.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt3/src/Package01/Aufgabe01.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Package01/Exercise01.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt02/src/Package01/Aufgabe01.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Package01/Exercise01.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabenBaltt02/src/Package01/Aufgabe01.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Package01/Exercise01.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabenBaltt02/src/Package01/Aufgabe01.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Package01/Exercise01.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt3/src/Package02/Aufgabe02.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Package02/Exercise02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt02/src/Package02/Aufgabe02.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Package02/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabenBaltt02/src/Package02/Aufgabe02.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Package02/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabenBaltt02/src/Package02/Aufgabe02.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Package02/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt3/src/AUfgabe04/Aufgabe04.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Exercise04/Exercise04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt02/src/AUfgabe04/Aufgabe04.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Exercise04/Exercise04.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabenBaltt02/src/AUfgabe04/Aufgabe04.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Exercise04/Exercise04.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabenBaltt02/src/AUfgabe04/Aufgabe04.java",
+    "destination": "java/basics/arithmetic-input-and-bmi/src/Exercise04/Exercise04.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/src/AufgabenBlatt04/Aufgabe04.java",
+    "destination": "java/conditions/dates-and-circle-calculations/src/worksheet04/Exercise04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/omars/git/repository2/AufgabenBaltt04/src/AufgabenBlatt04/Aufgabe04.java",
+    "destination": "java/conditions/dates-and-circle-calculations/src/worksheet04/Exercise04.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/omars/git/repository2/AufgabenBaltt04/src/AufgabenBlatt04/Aufgabe04.java",
+    "destination": "java/conditions/dates-and-circle-calculations/src/worksheet04/Exercise04.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/src/AufgabenBlatt04/Aufgabe05.java",
+    "destination": "java/conditions/dates-and-circle-calculations/src/worksheet04/Exercise05.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/omars/git/repository2/AufgabenBaltt04/src/AufgabenBlatt04/Aufgabe05.java",
+    "destination": "java/conditions/dates-and-circle-calculations/src/worksheet04/Exercise05.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/omars/git/repository2/AufgabenBaltt04/src/AufgabenBlatt04/Aufgabe05.java",
+    "destination": "java/conditions/dates-and-circle-calculations/src/worksheet04/Exercise05.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatte06/src/AufgabeBlatt06/Aufgabe02.java",
+    "destination": "java/loops/calculator-and-patterns/src/worksheet06/Exercise02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabeBlatte06/src/AufgabeBlatt06/Aufgabe02.java",
+    "destination": "java/loops/calculator-and-patterns/src/worksheet06/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabeBlatte06/src/AufgabeBlatt06/Aufgabe02.java",
+    "destination": "java/loops/calculator-and-patterns/src/worksheet06/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabeBlatte06/src/AufgabeBlatt06/Aufgabe03.java",
+    "destination": "java/loops/calculator-and-patterns/src/worksheet06/Exercise03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabeBlatte06/src/AufgabeBlatt06/Aufgabe03.java",
+    "destination": "java/loops/calculator-and-patterns/src/worksheet06/Exercise03.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabeBlatte06/src/AufgabeBlatt06/Aufgabe03.java",
+    "destination": "java/loops/calculator-and-patterns/src/worksheet06/Exercise03.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt07/src/Aufgabe07/Aufgabe02.java",
+    "destination": "java/strings/digits-and-letter-replacement/src/Exercise07/Exercise02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabenBaltt07/src/Aufgabe07/Aufgabe02.java",
+    "destination": "java/strings/digits-and-letter-replacement/src/Exercise07/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabenBaltt07/src/Aufgabe07/Aufgabe02.java",
+    "destination": "java/strings/digits-and-letter-replacement/src/Exercise07/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt07/src/Aufgabe07/Aufgabe03.java",
+    "destination": "java/strings/digits-and-letter-replacement/src/Exercise07/Exercise03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/AufgabenBaltt07/src/Aufgabe07/Aufgabe03.java",
+    "destination": "java/strings/digits-and-letter-replacement/src/Exercise07/Exercise03.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/AufgabenBaltt07/src/Aufgabe07/Aufgabe03.java",
+    "destination": "java/strings/digits-and-letter-replacement/src/Exercise07/Exercise03.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/omars/git/repository/AufgabenBlatt05/src/Aufgabe05/Aufgabe02.java",
+    "destination": "java/loops/range-candies-and-binary/src/Exercise05/Exercise02.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/omars/git/repository/AufgabenBlatt05/src/Aufgabe05/Aufgabe02.java",
+    "destination": "java/loops/range-candies-and-binary/src/Exercise05/Exercise02.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/omars/git/repository/AufgabenBlatt05/src/Aufgabe05/Aufgabe04.java",
+    "destination": "java/loops/range-candies-and-binary/src/Exercise05/Exercise04.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/omars/git/repository/AufgabenBlatt05/src/Aufgabe05/Aufgabe04.java",
+    "destination": "java/loops/range-candies-and-binary/src/Exercise05/Exercise04.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/Programmieren/Pro 1/src/omars/git/repository/AufgabenBlatt05/src/Aufgabe05/Aufgabe03.java",
+    "destination": "java/loops/range-candies-and-binary/src/Exercise05/Exercise03.java",
+    "duplicate_group": false
+  },
+  {
+    "source": "Pro/Programmieren/AufgabenBaltt5/omars/git/repository/AufgabenBlatt05/src/Aufgabe05/Aufgabe03.java",
+    "destination": "java/loops/range-candies-and-binary/src/Exercise05/Exercise03.java",
+    "duplicate_group": true
+  },
+  {
+    "source": "Pro/SQL/Aggregation.sql",
+    "destination": "sql/relationships/research_groups.sql"
+  },
+  {
+    "source": "Pro/SQL/Aggregation1.sql",
+    "destination": "sql/relationships/people_and_expenses.sql"
+  },
+  {
+    "source": "Pro/SQL/Komposition.sql",
+    "destination": "sql/relationships/lecture_schedules.sql"
+  },
+  {
+    "source": "Pro/SQL/Komposition1.sql",
+    "destination": "sql/relationships/levels_and_obstacles.sql"
+  },
+  {
+    "source": "Pro/SQL/Spezialisierung.sql",
+    "destination": "sql/relationships/hardware_specialization.sql"
+  },
+  {
+    "source": "Pro/SQL/uni.sql",
+    "destination": "sql/relationships/university_roles.sql"
+  },
+  {
+    "source": "Pro/SQL/erdiagrammen.sql",
+    "destination": "sql/schemas/image_missions.sql"
+  },
+  {
+    "source": "Pro/SQL/Fitnessstudio.sql",
+    "destination": "sql/schemas/fitness_studio.sql"
+  },
+  {
+    "source": "Pro/SQL/appStoreHub.sql",
+    "destination": "sql/schemas/app_store_hub.sql"
+  },
+  {
+    "source": "Pro/SQL/blog.sql",
+    "destination": "sql/schemas/blog.sql"
+  },
+  {
+    "source": "Pro/SQL/clinic_db.sql",
+    "destination": "sql/schemas/clinic.sql"
+  },
+  {
+    "source": "Pro/SQL/RPG_Spiel.sql",
+    "destination": "sql/schemas/role_playing_game.sql"
+  },
+  {
+    "source": "Pro/SQL/training_school.sql",
+    "destination": "sql/schemas/training_school.sql"
+  },
+  {
+    "source": "Pro/SQL/vorlesoungen.sql",
+    "destination": "sql/schemas/lecture_enrollments.sql"
+  },
+  {
+    "source": "Pro/SQL/Vulnerability_Scanner.sql",
+    "destination": "sql/schemas/vulnerability_inventory.sql"
+  },
+  {
+    "source": "Pro/Python/benutzerverwaltung.py",
+    "destination": "python/user_management.py"
+  },
+  {
+    "source": "Pro/Python/freundesliste.py",
+    "destination": "python/friends_list.py"
+  },
+  {
+    "source": "Pro/Python/geburtstag.py",
+    "destination": "python/birthday.py"
+  },
+  {
+    "source": "Pro/Python/james_bond.py",
+    "destination": "python/james_bond.py"
+  },
+  {
+    "source": "Pro/Python/lotto.py",
+    "destination": "python/lottery.py"
+  },
+  {
+    "source": "Pro/Python/telefonBuch.py",
+    "destination": "python/phone_book.py"
+  },
+  {
+    "source": "Pro/Python/uhrzeit.py",
+    "destination": "python/time_calculation.py"
+  }
+]
