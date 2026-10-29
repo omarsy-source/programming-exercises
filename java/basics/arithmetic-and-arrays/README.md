@@ -1,5 +1,7 @@
 # Arithmetic And Arrays
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [basics](../README.md) · [Compiler source list](sources.txt)
+
 Arithmetic, even/odd checks, averages, and multiplication.
 
 Compiles with JDK 17.
