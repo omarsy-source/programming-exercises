@@ -27,6 +27,18 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise07.Exercise02
 ```
 
+## Letter-replacement example
+
+The compile command above builds both exercises. To run the letter-replacement program instead of the number-to-word program, use:
+
+```bash
+java -cp out Exercise07.Exercise03
+```
+
+Enter a sentence first, then the letter to replace. For the sentence `Anna` and letter `a`, the program counts two matches and produces `XnnX`. Matching ignores letter case, and every replacement uses an uppercase `X`.
+
+Only the first character of the second input token is used as the target letter.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
