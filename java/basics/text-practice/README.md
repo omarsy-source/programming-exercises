@@ -1,5 +1,7 @@
 # Text Practice
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [basics](../README.md) · [Compiler source list](sources.txt)
+
 A standalone text and console practice program.
 
 Compiles with JDK 17.
