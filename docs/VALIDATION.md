@@ -32,7 +32,7 @@ Validation was performed on 29 October 2026 using JDK 17 and Python 3.
 | [tic-tac-toe-variant](../java/games/tic-tac-toe-variant/README.md) | Pass | Pass |  |
 | [practice](../java/fundamentals/practice/README.md) | Existing failure | Same limitation | 65 production sources compile separately. |
 | [number-sequence](../java/loops/number-sequence/README.md) | Pass | Pass |  |
-| [array-helpers-and-tests](../java/methods/array-helpers-and-tests/README.md) | Existing failure | Same limitation | 1 production sources compile separately. |
+| [array-helpers-and-tests](../java/methods/array-helpers-and-tests/README.md) | Existing failure | Same limitation | 1 production source compiles separately. |
 | [geometry-dash](../java/games/geometry-dash/README.md) | Pass | Pass |  |
 | [scratch-snippet](../java/basics/scratch-snippet/README.md) | Existing failure | Same limitation | Existing missing dependencies or incomplete syntax; see project README. |
 | [regular-expressions](../java/strings/regular-expressions/README.md) | Pass | Pass |  |
