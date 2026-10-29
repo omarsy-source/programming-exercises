@@ -26,9 +26,10 @@ Database, table, column, and literal values retain their original spelling, so e
 
 Use an isolated MySQL exercise database environment. Several scripts contain `DROP DATABASE` and recreate their named example database. Scripts that reuse the same database name are alternatives, not a migration sequence.
 
-From a terminal with the MySQL client installed, run a single script such as:
+With the MySQL client installed, start in the repository root and enter the `sql` directory before running a script. The relative path below is resolved from that directory:
 
 ```bash
+cd sql
 mysql -u YOUR_USER -p < schemas/clinic.sql
 ```
 
