@@ -1,5 +1,7 @@
 # Max Value Test
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [testing](../README.md) · [Compiler source list](sources.txt)
+
 An existing JUnit test example.
 
 The complete group has existing build limitations; see below.
