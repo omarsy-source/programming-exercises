@@ -1,5 +1,7 @@
 # Calculator And Patterns
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [loops](../README.md) · [Compiler source list](sources.txt)
+
 A repeated console calculator and nested-loop patterns.
 
 Compiles with JDK 17.
