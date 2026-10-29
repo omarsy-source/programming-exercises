@@ -2,6 +2,13 @@
 
 My collection of programming exercises from studying Applied Computer Science. The examples are organized by language and topic, with English Java/Python identifiers and simple German source explanations.
 
+## On this page
+
+- [Explore the collection](#explore-the-collection)
+- [Run an exercise](#run-an-exercise)
+- [Learning notes](#learning-notes)
+- [Verification and provenance](#verification-and-provenance)
+
 ## Explore the collection
 
 | Language | Contents | Start here |
