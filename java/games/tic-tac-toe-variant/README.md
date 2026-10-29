@@ -1,5 +1,7 @@
 # Tic Tac Toe Variant
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [games](../README.md) · [Compiler source list](sources.txt)
+
 An alternative Tic-Tac-Toe implementation.
 
 Compiles with JDK 17.
