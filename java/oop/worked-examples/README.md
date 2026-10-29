@@ -1,5 +1,7 @@
 # Worked Examples
 
+[Collection](../../../README.md) / [Java index](../../README.md) / [oop](../README.md) · [Compiler source list](sources.txt)
+
 OOP, interfaces, collections, generics, decorators, and singleton examples.
 
 Compiles with JDK 17.
