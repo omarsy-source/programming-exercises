@@ -73,3 +73,9 @@ Bond, James Bond
 ```
 
 The first version uses fixed slices for a five-character first name and a four-character last name. The second finds the first space and slices around its position. The repeated output demonstrates two approaches to splitting this particular name; it is not a general name parser.
+
+## Nested-tuple example
+
+Run `python birthday.py`. It requests no input and prints `<class 'tuple'>` twice: once for the date tuple and once for the outer tuple containing the name and date.
+
+The date is stored as `(day, month, year)`. The outer tuple has the shape `(name, date)`, so index `0` selects the name and index `1` selects the complete date tuple. The final message prints that tuple directly, retaining its parentheses and commas rather than formatting a calendar date. The name and date are fixed example values from the source.
