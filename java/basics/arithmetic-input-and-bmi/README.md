@@ -29,6 +29,19 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise04.Exercise04
 ```
 
+## Choose an entry point
+
+All four programs are independent. After compiling, select the class for the exercise you want:
+
+| Command | Behavior and input |
+| --- | --- |
+| `java -cp out Package01.Exercise01` | Evaluates `x - (x + 1.0) / (2 * x)` for the built-in value `x = 6`; no input is requested. |
+| `java -cp out Package02.Exercise02` | Swaps the built-in strings and prints `x =Tee` and `y =Coffee`; no input is requested. |
+| `java -cp out addition.A7mona` | Reads two numbers and prints their sum. Inputs `2` and `3` produce `z = 5.0`. |
+| `java -cp out Exercise04.Exercise04` | Reads weight in kilograms, then height in metres, calculates `weight / (height * height)`, and prints a category message. It does not print the numeric BMI. |
+
+The input programs do not validate numeric ranges or handle malformed numeric input. These descriptions document the current exercises rather than changing their calculations.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
