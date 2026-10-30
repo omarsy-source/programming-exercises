@@ -92,6 +92,12 @@ Both classes have private constructors and lazily create a shared instance when 
 
 The logger prints to the console and does not write a log file. Its counter belongs to the shared logger object and resets in a new Java process. These examples use no synchronization, so their lazy initialization is intended for the demonstrated single-threaded calls.
 
+## Static counter example
+
+After compiling, run `java -cp out staticexamples.CounterMain`. It creates two `Counter` objects and prints `2` in a fresh Java process, without reading terminal input.
+
+The constructor increments the same static `count` field for every new object. `Counter.getCount()` reads that shared value; it does not increment it. This example counts constructor calls, rather than tracking how many objects are still reachable. The value is held in memory and starts at zero in a new Java process.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
