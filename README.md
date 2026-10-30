@@ -30,7 +30,15 @@ java -cp out PACKAGE_NAME.CLASS_NAME
 
 `PACKAGE_NAME.CLASS_NAME` is a placeholder: replace it with an entry point from the selected project's README (for example, `gitHub.NumberSequence` in [Number Sequence](java/loops/number-sequence/README.md)). Run the compile command inside that project folder so `sources.txt` resolves correctly.
 
-Python scripts run with `python filename.py`. SQL scripts target MySQL; follow the [SQL instructions](sql/README.md), including each script's existing database assumptions.
+For a Python example, run this command from the repository root:
+
+```bash
+python python/friends_list.py
+```
+
+Enter names one at a time, then submit an empty line to finish and see the reversed list. Use `python3` if that is the Python 3 command on your system. See the [Python guide](python/README.md) for the other scripts.
+
+SQL scripts target MySQL; follow the [SQL instructions](sql/README.md), including each script's existing database assumptions.
 
 ## Learning notes
 
