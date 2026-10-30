@@ -1,8 +1,8 @@
-# Array Helpers And Tests
+# Number-to-Word Methods and Tests
 
 [Collection](../../../README.md) / [Java index](../../README.md) / [methods](../README.md) · [Compiler source list](sources.txt)
 
-Array helper methods and their existing JUnit tests.
+Converts digits and positive integers into German words, with existing JUnit tests. The folder name is retained from the original organization.
 
 The complete group has existing build limitations; see below.
 
@@ -15,10 +15,10 @@ The complete group has existing build limitations; see below.
 
 ## Compile and run
 
-Open a terminal in this project folder. Compile using the supplied argument file:
+Open a terminal in this project folder. Compile the production class without the external test dependencies:
 
 ```bash
-javac -encoding UTF-8 -d out @sources.txt
+javac -encoding UTF-8 -d out @production-sources.txt
 ```
 
 Run one of the entry points listed above, for example:
@@ -27,9 +27,13 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise12.Exercise02
 ```
 
+## Console example
+
+Enter `123` at the number prompt to print `EinsZweiDrei`. Words are concatenated without spaces. Zero and negative input produce an empty string because the conversion loop only runs while the value is positive.
+
 ## Existing limitations
 
-The existing tests import JUnit 4 and/or JUnit Jupiter. Those libraries are not bundled, so the complete source set was not compiled or run as a test suite. The 1 production source files compile without the tests. Use `@production-sources.txt` instead of `@sources.txt` to compile that subset.
+The test file imports both JUnit 4 and JUnit Jupiter. These libraries are not bundled, so the complete source set was not compiled or run as a test suite. The command above builds only the single production class; `@sources.txt` also includes the test file and requires those dependencies.
 
 ## Import notes
 
