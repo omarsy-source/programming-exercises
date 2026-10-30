@@ -56,3 +56,9 @@ Run `python phone_book.py` and enter an integer when prompted. The lookup uses t
 | Any other integer | `Name not found` |
 
 This example does not save contacts or search an external address book. Nonnumeric input fails during the `int()` conversion because input errors are not handled.
+
+## Time-input example
+
+Run `python time_calculation.py` and enter four numeric values in order: start hour, start minute, end hour, end minute. For inputs `8`, `0`, `9`, and `30`, it prints the tuples `(8, 0)` and `(9, 30)`.
+
+The script defines `calculate_minutes(start, end)` but never calls it, so running the file does not print a duration. The function's overnight branch is selected by comparing the hours only; hour and minute ranges are not validated. Use numeric literals for this exercise: each prompt passes its input through `eval()`.
