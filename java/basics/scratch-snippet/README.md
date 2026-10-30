@@ -12,23 +12,19 @@ The complete group has existing build limitations; see below.
 | --- | --- |
 | [Snippet.java](src/snippet/Snippet.java) | `snippet.Snippet` |
 
-## Compile and run
+## Inspect the build limitation
 
-Open a terminal in this project folder. Compile using the supplied argument file:
+This source is retained for inspection rather than as a runnable example. From this project folder, the supplied argument file reproduces its existing compilation failure:
 
 ```bash
 javac -encoding UTF-8 -d out @sources.txt
 ```
 
-Run one of the entry points listed above, for example:
-
-```bash
-java -cp out snippet.Snippet
-```
-
 ## Existing limitations
 
-The original snippet contains a package declaration inside a method and does not compile. It is preserved as an unfinished example.
+The file begins with the top-level declaration `package snippet;`, but its `main` method also contains `package examples;`. A package declaration cannot be placed inside a method body, so compilation fails before the program can run. No runnable class is produced from this source as written.
+
+The source is preserved as an unfinished example. The entry-point name in the table describes the declared class; it does not indicate a successful build.
 
 ## Import notes
 
