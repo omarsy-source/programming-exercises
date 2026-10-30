@@ -28,6 +28,18 @@ java -cp out exercises.Exercise01
 
 Run from this folder so the supplied `NotenListe.txt` can be found. The sample uses decimal commas, so its interpretation depends on the Scanner locale.
 
+## Sample file and output
+
+The supplied [NotenListe.txt](NotenListe.txt) contains six records. Each record has a student number followed by a grade, separated by whitespace, for example:
+
+```text
+500123   2,0
+```
+
+When the decimal commas are read using a compatible locale, the six sample grades have a mean of approximately `1.7833`. The program prints the record count twice before the mean because both `main` and `createList` call `getQuantity`, and that method prints its result.
+
+Keep one pair of numeric values per line without blank lines: the program counts file lines to size the array, then reads two numbers per record. A missing file prints `404`; malformed numeric data is not caught by the existing error handler.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
