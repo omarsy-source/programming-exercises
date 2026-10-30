@@ -8,6 +8,8 @@ Database, table, column, and literal values retain their original spelling, so e
 
 ## Script index
 
+For a focused view of each directory, open the [relationships folder guide](relationships/README.md) or the [schemas and queries folder guide](schemas/README.md). Each guide links back to these shared running instructions and limitations.
+
 ### Relationships
 
 | Script | Focus |
