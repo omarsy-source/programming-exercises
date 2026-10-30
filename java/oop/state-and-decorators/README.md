@@ -45,6 +45,22 @@ Run one of the entry points listed above, for example:
 java -cp out Challenge.Main
 ```
 
+## Shared statistics example
+
+After compiling, run `java -cp out Exercise01.Main`. The program uses fixed values and takes no terminal input.
+
+It constructs four players, so the static `GameStatistics.playerCount` becomes `4`. All four calls to `attack` are made on `player1`, with damage values `15`, `5`, `30`, and `20`; together they increase the shared `totalDamage` to `70`.
+
+Expected output from a fresh process:
+
+```text
+---SpielInfos---
+Anzahl der Spieler ist 4
+Der gesamte Schaden aller Spieler 70
+```
+
+These counters belong to the class rather than individual players. `attack` returns the updated cumulative damage, not just that attack's damage; the main method ignores that return value. The statistics are held in memory and start again in a new Java process.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
