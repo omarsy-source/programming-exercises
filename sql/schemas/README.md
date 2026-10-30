@@ -16,6 +16,18 @@ This folder contains 9 independent exercise scripts.
 | [lecture_enrollments.sql](lecture_enrollments.sql) | Links students and lectures through a junction table. |
 | [vulnerability_inventory.sql](vulnerability_inventory.sql) | Associates target systems and vulnerabilities and counts matches per operating system. |
 
+## Clinic schema after alterations
+
+[clinic.sql](clinic.sql) first recreates `clinic_db`, creates three tables, and inserts 4 patients, 3 doctors, and 4 appointments. Its final `ALTER TABLE` statements change the schema as follows:
+
+| Table | Final change |
+| --- | --- |
+| `patients` | Adds nullable `phone VARCHAR(100)` and renames `city` to `patient_city`. |
+| `doctors` | Adds nullable `email VARCHAR(100)`. |
+| `appointments` | Expands `status` from `VARCHAR(30)` to `VARCHAR(150)`. |
+
+The inserted rows have no phone or email values, so those new columns remain `NULL`. Any follow-up query for a patient's city must use `patient_city`. The script contains no `SELECT` statement to display its sample rows.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
