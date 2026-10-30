@@ -33,6 +33,24 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise01.Main
 ```
 
+## Properties file example
+
+Run the map-to-file example after compiling:
+
+```bash
+java -cp out Exercise04.HashExample
+```
+
+This example takes no terminal input. It copies three map entries into `Properties`, writes `config.properties` in the current working directory, then reads the file back and prints the loaded properties.
+
+| Key | Stored value |
+| --- | --- |
+| `Language` | `de` |
+| `Theme` | `dark` |
+| `Timeout` | `30` |
+
+Use a working directory where overwriting `config.properties` is acceptable: opening the output stream replaces an existing file. Property display order is not guaranteed. File errors are caught and printed as stack traces.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
