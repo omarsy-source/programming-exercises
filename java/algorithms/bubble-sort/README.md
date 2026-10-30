@@ -28,6 +28,18 @@ Run one of the entry points listed above, for example:
 java -cp out exercises01.BubbleSort
 ```
 
+## Current implementation
+
+`BubbleSort.bubbleSort(int[] array)` is an empty method. Its `main` method creates ten random integers from 1 through 100 but does not call the sorting method or print the array. Running `exercises01.BubbleSort` therefore produces no console output; successful compilation does not mean the sorting algorithm is implemented.
+
+The separate practice program can be run with:
+
+```bash
+java -cp out exercises01.Practice
+```
+
+It prints `5` for its built-in array. Its `countHighAlerts` method currently overwrites the supplied threshold with `5`, starts checking at index `1`, and counts values greater than or equal to that threshold. These existing limitations are retained.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
