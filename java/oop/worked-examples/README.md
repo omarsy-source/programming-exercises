@@ -79,6 +79,19 @@ Run one of the entry points listed above, for example:
 java -cp out ArrayList.ArrayList01
 ```
 
+## Singleton examples
+
+After compiling, run either example from this project folder. Both use fixed values and require no terminal input.
+
+| Command | Expected output |
+| --- | --- |
+| `java -cp out Singleton01.AppConfigMain` | `MyApp` |
+| `java -cp out Singleton01.LoggerMain` | Three lines: `[1] Hallo`, `[2] Moin`, `[3] Wallah` |
+
+Both classes have private constructors and lazily create a shared instance when their accessor is first called. The logger accessor is spelled `getInstace()` in the existing source; the configuration accessor is `getInstance()`.
+
+The logger prints to the console and does not write a log file. Its counter belongs to the shared logger object and resets in a new Java process. These examples use no synchronization, so their lazy initialization is intended for the demonstrated single-threaded calls.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
