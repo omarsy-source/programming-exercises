@@ -22,7 +22,9 @@ javac -encoding UTF-8 -d out @sources.txt
 
 ## Existing limitations
 
-This group needs JUnit Jupiter and references an absent `Traning.Beispiel00` dependency. These requirements already exist in the original file.
+This group imports JUnit Jupiter and calls `Traning.Example00.maxValue()`, but the referenced application class is absent from this source group. The compile command above cannot succeed until both dependencies are available.
+
+The test class has no `main` method; it is intended to be launched by a JUnit runner after its dependencies are supplied. Its single test currently calls `maxValue()` without checking the returned value with an assertion. The static assertions import alone does not add a check.
 
 ## Import notes
 
