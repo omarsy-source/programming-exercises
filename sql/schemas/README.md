@@ -28,6 +28,20 @@ This folder contains 9 independent exercise scripts.
 
 The inserted rows have no phone or email values, so those new columns remain `NULL`. Any follow-up query for a patient's city must use `patient_city`. The script contains no `SELECT` statement to display its sample rows.
 
+## Training school query result
+
+[training_school.sql](training_school.sql) inserts five students, three courses, and seven enrollments. From those sample rows, the final grouped query is expected to return:
+
+| course_name | studentenAnzahl |
+| --- | --- |
+| SQL Basics | 3 |
+| Web Design | 2 |
+| Java Programming | 2 |
+
+The query orders counts from largest to smallest. The two courses with a count of `2` can appear in either order because no secondary sort is specified. Its inner joins omit courses without matching enrollments; `COUNT(students.student_id)` counts joined enrollment rows, not distinct students. The schema does not prohibit repeated enrollment of the same student in the same course.
+
+These results are derived from the supplied inserts and query; they have not been verified by running MySQL.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
