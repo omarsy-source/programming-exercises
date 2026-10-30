@@ -59,6 +59,19 @@ The example uses two implementations through the `Storage` interface, which decl
 
 The main method calls both `load()` methods but ignores their returned strings. Therefore, the memory-loading message is not printed. This is an interface demonstration; it does not persist data between program runs.
 
+## Plugin interface example
+
+After compiling, run `java -cp out Exercise04.Main`. The example stores four objects in an `ArrayList<Plugin>` and visits them in insertion order:
+
+| Printed plugin name | Next line from `execute()` |
+| --- | --- |
+| `DatabaseBackupPlugin` | `Backup` |
+| `PhotoBackupPlugin` | `Backup` |
+| `SecurityUpdatePlugin` | `Update` |
+| `DriverUpdatePlugin` | `Update` |
+
+The loop first prints `getName()`, then calls `execute()`, producing eight lines without terminal input. Both implementations only print their action labels: they do not back up files, install updates, or discover external plugins. The example demonstrates invoking different implementations through the same interface.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
