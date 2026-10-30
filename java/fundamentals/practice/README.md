@@ -83,11 +83,13 @@ The complete group has existing build limitations; see below.
 
 ## Compile and run
 
-Open a terminal in this project folder. Compile using the supplied argument file:
+Open a terminal in this project folder. Compile the production sources without the unbundled JUnit dependencies:
 
 ```bash
-javac -encoding UTF-8 -d out @sources.txt
+javac -encoding UTF-8 -d out @production-sources.txt
 ```
+
+The [production source list](production-sources.txt) excludes the five test files. The complete `sources.txt` also includes those tests and requires the JUnit libraries described under [Existing limitations](#existing-limitations).
 
 Run one of the entry points listed above, for example:
 
