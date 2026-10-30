@@ -44,6 +44,18 @@ After compiling, these commands run the values already defined in each source fi
 
 `TwoSum` returns zero-based **indices**, not the values: positions `0` and `2` contain `1` and `9`. Its nested loops return the first matching pair of distinct indices, or an empty array when no pair matches.
 
+## Prime range example
+
+After compiling, run `java -cp out easy.PrimesBetween`. The main method uses the fixed inclusive range `1` to `20` and reads no terminal input.
+
+Expected output:
+
+```text
+[2, 3, 5, 7, 11, 13, 17, 19]
+```
+
+`getPrimesBetween(a, b)` skips values below `2`, checks each candidate for divisors, and returns an array shortened to the number of primes found. The returned array contains the prime values themselves, with no unused trailing zeroes. The main method does not parse command-line arguments to change the range.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
