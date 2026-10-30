@@ -33,6 +33,17 @@ Run one of the entry points listed above, for example:
 java -cp out easy.AreaOfSquare
 ```
 
+## Fixed-input examples
+
+After compiling, these commands run the values already defined in each source file; neither example reads terminal input.
+
+| Command | Built-in example | Output |
+| --- | --- | --- |
+| `java -cp out easy.AreaOfSquare` | Side length `3`, multiplied by itself | `9` |
+| `java -cp out easy.TwoSum` | Array `[1, 6, 9, 5, 8, 7, 3]`, target `10` | `[0, 2]` |
+
+`TwoSum` returns zero-based **indices**, not the values: positions `0` and `2` contain `1` and `9`. Its nested loops return the first matching pair of distinct indices, or an empty array when no pair matches.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
