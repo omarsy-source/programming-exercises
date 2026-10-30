@@ -26,6 +26,16 @@ An obstacle ID can be reused in a different level, but the same obstacle/level p
 
 The script defines the schema only. It contains no sample inserts, deletes, or result queries, so running it does not demonstrate the cascade with sample rows.
 
+## Research group association
+
+[research_groups.sql](research_groups.sql) creates `Forschungsgruppen` and `Dozenten` in the `Aggregation` database. Each lecturer has one nullable `forschungsgruppen_id` foreign-key column:
+
+- A lecturer can have no group by leaving that column `NULL`.
+- A non-null group ID must reference an existing research group.
+- Multiple lecturers can reference the same group because the foreign-key column is not unique.
+
+The script declares no cascading delete action. It defines tables only, with no sample rows or result queries. The required group-topic column is spelled `theama` in the source; use that exact spelling in follow-up queries.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
