@@ -13,6 +13,19 @@ This folder contains 6 independent exercise scripts.
 | [hardware_specialization.sql](hardware_specialization.sql) | Models the properties of different hardware types in separate tables. |
 | [university_roles.sql](university_roles.sql) | Stores different university roles in one shared table. |
 
+## Level and obstacle relationship
+
+[levels_and_obstacles.sql](levels_and_obstacles.sql) creates the `Komposition` database and two tables:
+
+| Table | Key and relationship |
+| --- | --- |
+| `Level` | `level_id` is the primary key. |
+| `Hindernisse` | The primary key is the pair `(hindernis_id, level_id)`; its non-null `level_id` references `Level.level_id`. |
+
+An obstacle ID can be reused in a different level, but the same obstacle/level pair cannot appear twice. The foreign key uses `ON DELETE CASCADE`: deleting a level also deletes its associated obstacles; deleting an obstacle does not delete the level.
+
+The script defines the schema only. It contains no sample inserts, deletes, or result queries, so running it does not demonstrate the cascade with sample rows.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
