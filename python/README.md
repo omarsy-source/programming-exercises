@@ -37,3 +37,9 @@ Run `friends_list.py`, enter `Omar`, then `Lina`, then press Enter without typin
 ```
 
 An empty first input finishes immediately and prints `[]`.
+
+## Lottery example
+
+Run `python lottery.py` to draw seven distinct numbers from 1 through 20, excluding `9`. The available pool therefore contains 19 numbers. Results are printed in descending order and vary between runs.
+
+At `Weiter? (ja/nein):`, enter exactly `ja` for another draw. Any other input ends the program. Each new draw restores the full pool, so a number can appear again in a later draw, while remaining unique within a single draw.
