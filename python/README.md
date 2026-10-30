@@ -79,3 +79,9 @@ The first version uses fixed slices for a five-character first name and a four-c
 Run `python birthday.py`. It requests no input and prints `<class 'tuple'>` twice: once for the date tuple and once for the outer tuple containing the name and date.
 
 The date is stored as `(day, month, year)`. The outer tuple has the shape `(name, date)`, so index `0` selects the name and index `1` selects the complete date tuple. The final message prints that tuple directly, retaining its parentheses and commas rather than formatting a calendar date. The name and date are fixed example values from the source.
+
+## Nested-dictionary example
+
+Run `python user_management.py`. It requests no input and prints one nested dictionary containing the two fixed users `anna` and `hugo`.
+
+The outer keys select a user's dictionary; the inner keys are `name`, `address`, `matrnr`, and `email`. For example, `users["anna"]["address"]` selects `Flensburg`. The script only constructs and prints these sample records; it does not implement account creation, login, editing, or persistent storage.
