@@ -4,7 +4,7 @@
 
 Each project has its own `src` directory, compile instructions, and list of entry points. Projects are independent; do not compile every source in the entire collection as one project.
 
-| Topic | Project | Sources | Build status |
+| Topic | Project | Java files | Build status |
 | --- | --- | ---: | --- |
 | [algorithms](algorithms/README.md) | [bubble-sort](algorithms/bubble-sort/README.md) | 3 | Compiles |
 | [algorithms](algorithms/README.md) | [coding-challenges](algorithms/coding-challenges/README.md) | 8 | Compiles |
@@ -36,6 +36,8 @@ Each project has its own `src` directory, compile instructions, and list of entr
 | [strings](strings/README.md) | [digits-and-letter-replacement](strings/digits-and-letter-replacement/README.md) | 2 | Compiles |
 | [strings](strings/README.md) | [regular-expressions](strings/regular-expressions/README.md) | 2 | Compiles |
 | [testing](testing/README.md) | [max-value-test](testing/max-value-test/README.md) | 1 | Existing incomplete example / missing dependencies |
+
+The **Java files** column counts source files, including supporting classes, test classes, and module descriptors where present. It does not count runnable programs: a project can have several entry points, and some files have none. Use each project's source table to choose a class with a `main` method.
 
 ## Reading the build status
 
