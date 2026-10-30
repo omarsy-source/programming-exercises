@@ -43,3 +43,16 @@ An empty first input finishes immediately and prints `[]`.
 Run `python lottery.py` to draw seven distinct numbers from 1 through 20, excluding `9`. The available pool therefore contains 19 numbers. Results are printed in descending order and vary between runs.
 
 At `Weiter? (ja/nein):`, enter exactly `ja` for another draw. Any other input ends the program. Each new draw restores the full pool, so a number can appear again in a later draw, while remaining unique within a single draw.
+
+## Phone-book example
+
+Run `python phone_book.py` and enter an integer when prompted. The lookup uses three fixed example mappings:
+
+| Input | Output |
+| --- | --- |
+| `11111111` | `Amal` |
+| `22222222` | `John` |
+| `33333333` | `Alice` |
+| Any other integer | `Name not found` |
+
+This example does not save contacts or search an external address book. Nonnumeric input fails during the `int()` conversion because input errors are not handled.
