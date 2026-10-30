@@ -27,6 +27,29 @@ Run one of the entry points listed above, for example:
 java -cp out worksheet06.Exercise02
 ```
 
+## Calculator input
+
+`worksheet06.Exercise02` reads an operator first (`+`, `-`, `*`, `/`, or `%`), followed by two integers. For example, enter `/`, then `7`, then `2` to obtain `n1 / n2 = 3.5`. Division casts the first operand to `float`; `%` uses integer remainder.
+
+After each calculation, enter exactly `yes` to repeat. Any other response ends the program. An unknown operator still consumes both numbers but prints no calculation result because the switch has no default branch. Malformed integer input is not handled.
+
+## Star pattern
+
+The second program runs without input:
+
+```bash
+java -cp out worksheet06.Exercise03
+```
+
+Its fixed value `n = 4` produces:
+
+```text
+*
+**
+***
+****
+```
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
