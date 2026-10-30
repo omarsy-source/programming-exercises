@@ -4,15 +4,15 @@
 
 Seven independent console exercises using the Python standard library. Identifiers use English; comments use simple German.
 
-| Script | Purpose |
-| --- | --- |
-| [user_management.py](user_management.py) | Nested dictionaries with two example users. |
-| [friends_list.py](friends_list.py) | Reads names until an empty input, then reverses their order. |
-| [birthday.py](birthday.py) | Demonstrates a nested tuple with a name and example date. |
-| [james_bond.py](james_bond.py) | Splits and recombines first and last names using two approaches. |
-| [lottery.py](lottery.py) | Draws seven distinct numbers and allows another draw. |
-| [phone_book.py](phone_book.py) | Looks up a fixed example number using conditions. |
-| [time_calculation.py](time_calculation.py) | Reads time tuples and defines a duration function without calling it. |
+| Script | Purpose | Usage |
+| --- | --- | --- |
+| [user_management.py](user_management.py) | Nested dictionaries with two example users. | [Example](#nested-dictionary-example) |
+| [friends_list.py](friends_list.py) | Reads names until an empty input, then reverses their order. | [Example](#friends-list-example) |
+| [birthday.py](birthday.py) | Demonstrates a nested tuple with a name and example date. | [Example](#nested-tuple-example) |
+| [james_bond.py](james_bond.py) | Splits and recombines first and last names using two approaches. | [Example](#name-splitting-example) |
+| [lottery.py](lottery.py) | Draws seven distinct numbers and allows another draw. | [Example](#lottery-example) |
+| [phone_book.py](phone_book.py) | Looks up a fixed example number using conditions. | [Example](#phone-book-example) |
+| [time_calculation.py](time_calculation.py) | Reads time tuples and defines a duration function without calling it. | [Example](#time-input-example) |
 
 ## Run
 
