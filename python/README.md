@@ -62,3 +62,14 @@ This example does not save contacts or search an external address book. Nonnumer
 Run `python time_calculation.py` and enter four numeric values in order: start hour, start minute, end hour, end minute. For inputs `8`, `0`, `9`, and `30`, it prints the tuples `(8, 0)` and `(9, 30)`.
 
 The script defines `calculate_minutes(start, end)` but never calls it, so running the file does not print a duration. The function's overnight branch is selected by comparing the hours only; hour and minute ranges are not validated. Use numeric literals for this exercise: each prompt passes its input through `eval()`.
+
+## Name-splitting example
+
+Run `python james_bond.py`. It uses the fixed string `James Bond`, requests no input, and prints the same line twice:
+
+```text
+Bond, James Bond
+Bond, James Bond
+```
+
+The first version uses fixed slices for a five-character first name and a four-character last name. The second finds the first space and slices around its position. The repeated output demonstrates two approaches to splitting this particular name; it is not a general name parser.
