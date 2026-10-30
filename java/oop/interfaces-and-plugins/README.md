@@ -42,6 +42,23 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise01.Main
 ```
 
+## Storage interface example
+
+After compiling, run:
+
+```bash
+java -cp out Exercise02.Main
+```
+
+The example uses two implementations through the `Storage` interface, which declares `save(String data)` and `load()`. It uses fixed text and takes no terminal input.
+
+| Implementation | Current behavior |
+| --- | --- |
+| `FileStorage` | `save` prints a message; `load` prints a message and returns `".."`. It does not create or read a file. |
+| `MemoryStorage` | `save` retains the text in an instance field and prints a message. `load` returns that text with a loading-message suffix. |
+
+The main method calls both `load()` methods but ignores their returned strings. Therefore, the memory-loading message is not printed. This is an interface demonstration; it does not persist data between program runs.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
