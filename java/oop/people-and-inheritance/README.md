@@ -30,6 +30,20 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise1.Main
 ```
 
+## Inheritance and console flow
+
+| Class | Role |
+| --- | --- |
+| `Person` | Stores a name and age and provides the base `introduce()` method. |
+| `Student` | Extends `Person`, stores a student ID, and supplies its own introduction. |
+| `Teacher` | Extends `Person`, stores a subject, and overrides the introduction. |
+
+`Exercise1.Main` uses fixed demonstration values and does not request console input. It introduces a person, student, and teacher directly, then puts the student and teacher into an `ArrayList<Person>`.
+
+The loop calls `introduce()` on each list element, selecting the student's or teacher's implementation at runtime. Their introductions therefore appear twice: once from the direct call and once from the loop. The plain `Person` is not added to the list.
+
+An `instanceof Student` check guards the cast used to print the student ID; the teacher does not enter that branch.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
