@@ -28,6 +28,18 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise01.Exercise01
 ```
 
+## Built-in examples
+
+These programs use fixed values and do not request console input. After compiling, choose one of the following commands:
+
+| Command | Calculation | Output |
+| --- | --- | --- |
+| `java -cp out Exercise01.Exercise01` | Adds `14` and `3`, then checks whether the sum is even or odd. | `Die summe ist eine ungerade Zahle und beträgt 17` |
+| `java -cp out Exercise01.Exercise03` | Averages the five values `3, 5, 9, 18, 29`. | `Der Durchschnitt beträgt = 12.8` |
+| `java -cp out Exercise01.Exercise04` | Calls `multiply(4, 5)`. | `20` |
+
+The average uses floating-point division because the sum is cast to `double` before dividing by the array length.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
