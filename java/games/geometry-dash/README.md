@@ -51,6 +51,19 @@ java -cp out com.thehxlab.geometrydash.Launcher
 
 This Swing example requires a graphical desktop. Interactive gameplay was not exercised during this import. Existing scaffold comments and the package attribution are retained.
 
+## Starting and controlling the game
+
+The launcher opens the start screen. Click **Spielen** to switch to the game panel and start the level, or **Einstellungen** to open the settings dialog.
+
+| Control | Implemented behavior |
+| --- | --- |
+| Space | Requests a player jump while a level is loaded. |
+| D | Toggles debug bounding boxes through `GameObject.DEBUG`. |
+| Escape | The key branch is still a TODO; it currently performs no pause or stop action. |
+| Window close button | Exits the application. |
+
+Keyboard controls are handled by the game panel while it has focus; the launcher requests focus when play starts. These notes describe the current source implementation, not a completed interactive gameplay test.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
