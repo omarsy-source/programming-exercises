@@ -51,6 +51,22 @@ This example takes no terminal input. It copies three map entries into `Properti
 
 Use a working directory where overwriting `config.properties` is acceptable: opening the output stream replaces an existing file. Property display order is not guaranteed. File errors are caught and printed as stack traces.
 
+## Generic pair example
+
+After compiling, run `java -cp out Exercise01.Main`. It constructs two pairs without reading terminal input:
+
+| Declared type | First value | Second value |
+| --- | --- | --- |
+| `Pair<Integer, Double>` | `3` | `14.5` |
+| `Pair<String, Character>` | `"Hallo World"` | `'w'` |
+
+`Pair<T, U>` stores the two values separately. `getFirst()` returns `T` and `getSecond()` returns `U`; the two positions can have different types. The main method prints each pair through its `toString()` method:
+
+```text
+Pair [first=3, second=14.5]
+Pair [first=Hallo World, second=w]
+```
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
