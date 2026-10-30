@@ -27,6 +27,12 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise01.regex
 ```
 
+## Current status
+
+This project is an unfinished exercise skeleton. The `Exercise01.regex.main` method contains only the generated TODO comment: no regular expression, matching logic, console input, or output is implemented.
+
+The run command above therefore exits without printing anything. The class and module descriptor compile, but this project currently provides no runnable regex demonstration or sample match results.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
