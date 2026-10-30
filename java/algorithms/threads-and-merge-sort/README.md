@@ -32,6 +32,18 @@ Run one of the entry points listed above, for example:
 java -cp out Exercise01.Main
 ```
 
+## Choosing an example
+
+After compiling, choose one of these entry points. All three use fixed values and require no terminal input.
+
+| Command | Behavior |
+| --- | --- |
+| `java -cp out Exercise01.Main` | Starts two threads: `Ding` prints 5 times with a 500 ms pause after each print; `Dong` prints 900 times with a 3000 ms pause after each print. |
+| `java -cp out Exercise02.Main` | Prints the countdown from `10` through `0`, then `Liftoff!`, with a one-second pause after each number. |
+| `java -cp out Exercise03.Main` | Sorts the built-in array and prints `[14, 14, 24, 36, 48, 54, 75, 97]`. This example does not start additional threads. |
+
+The bell messages can interleave in different orders. The `Dong` thread keeps the program running for approximately 45 minutes; use `Ctrl+C` in the terminal to stop the demonstration early.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
