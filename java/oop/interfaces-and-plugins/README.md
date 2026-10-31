@@ -72,6 +72,19 @@ After compiling, run `java -cp out Exercise04.Main`. The example stores four obj
 
 The loop first prints `getName()`, then calls `execute()`, producing eight lines without terminal input. Both implementations only print their action labels: they do not back up files, install updates, or discover external plugins. The example demonstrates invoking different implementations through the same interface.
 
+## Form element example
+
+After compiling, run `java -cp out Exercise01.Main`. It creates a `Button` at `(5, 6)` and a `TextField` at `(3, 4)`, both referenced as `FormElement`.
+
+Expected output:
+
+```text
+Button bei ( 5 , 6 ) gerendert
+Textfeld bei ( 3 , 4 ) gerendert
+```
+
+`FormElement` is an abstract class with an abstract `render()` method. Each subclass supplies its own implementation, which is selected when `render()` is called through the base-class reference. Here, rendering only prints a console message; the example opens no graphical window and takes no terminal input.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
