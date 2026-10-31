@@ -70,6 +70,19 @@ The sample inserts expect the following author IDs in a newly created database w
 
 Each post requires a non-null `autor_id` referencing `auto.autor_id`, so one author can have multiple posts. The script creates and populates the tables but includes no `SELECT` query to display them. These notes are based on source inspection; the script has not been executed against MySQL.
 
+## Fitness studio relationships
+
+[fitness_studio.sql](fitness_studio.sql) declares four tables in the existing `Fitnessstudio` database:
+
+| Relationship | Implementation |
+| --- | --- |
+| Member to training plan | Nullable `Mitglieder.id_trainingspläne` references `Trainingspläne.id`. |
+| Training plan to exercises | `Trainingspläne2Übungen` links plans and exercises through two foreign keys. |
+
+A member can have no plan or one assigned plan; multiple members can share the same plan. A plan can contain multiple exercises, and an exercise can belong to multiple plans. The junction table's composite primary key `(id_Trainingspläne, id_Übungen)` prevents duplicate plan/exercise pairs.
+
+The script defines tables only, with no sample inserts or queries. Accented identifiers such as `Übungen` and `Trainingspläne` retain their source spelling.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
