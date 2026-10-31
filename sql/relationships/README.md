@@ -49,6 +49,14 @@ A session ID can be reused for another lecture; only the pair must be unique. Th
 
 This script and `levels_and_obstacles.sql` both begin with `CREATE DATABASE Komposition` without `IF NOT EXISTS`. Running one after the other in the same environment can therefore fail at database creation. They are separate schema exercises, not consecutive setup steps.
 
+## People and expenses schema
+
+[people_and_expenses.sql](people_and_expenses.sql) defines `Personen` and `Ausgaben` in the `Aggregation` database. Each expense has its own `ausgaben_id` primary key and a nullable `person_id` foreign key.
+
+Multiple expenses can reference the same person. An expense can also have no assigned person when `person_id` is `NULL`; a non-null value must match an existing `Personen.person_id`.
+
+The amount column `betrag DECIMAL(7,3)` stores seven decimal digits in total, including three after the decimal point. It is nullable, and the schema declares no check requiring a positive amount. The script contains table definitions only, with no sample inserts or queries to total expenses.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
