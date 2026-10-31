@@ -67,6 +67,20 @@ Pair [first=3, second=14.5]
 Pair [first=Hallo World, second=w]
 ```
 
+## Bounded list example
+
+After compiling, run `java -cp out Exercise03.Main`. It creates a list of two `Beer` objects and a list of one `Juice` object, then calls `Drink.describeAll` on each list without terminal input.
+
+Expected output:
+
+```text
+Exercise03.Beer
+Exercise03.Beer
+Exercise03.Juice
+```
+
+The parameter `List<? extends Drink>` accepts lists whose element type is `Drink` or a subclass. The method prints each object's fully qualified runtime class name. The main method explicitly calls the implementation in `Drink`; the separate, empty static `Beer.describeAll(List)` method is not called.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
