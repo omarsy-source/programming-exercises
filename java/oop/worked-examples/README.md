@@ -207,6 +207,12 @@ After compiling, run `java -cp out oop1.Main`. It assigns the name `KIA` and mod
 
 `setModel(m)` stores `m` before checking whether it is greater than `2014`. Values of `2014` or less therefore trigger `We do not accept this model!` but remain stored and are returned by `getModel()`. The warning does not reject or undo the assignment.
 
+## Animal method dispatch example
+
+After compiling, run `java -cp out oop_animal.Main`. The active code creates a `Dogs` object named `Dog` through an `Animal` reference and calls `printInfo()`, without terminal input.
+
+`Animal.printInfo()` first prints `Name: Dog`, then calls `move()` and `makeSound()` in that order. Those calls dispatch to the `Dogs` overrides. In the existing source, the sound-like message is inside `move()` and the movement-like message is inside `makeSound()`, so interpret the output using the actual method bodies. The bird and cat examples in `Main` are commented out and produce no output.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
