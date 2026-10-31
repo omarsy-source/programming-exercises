@@ -244,6 +244,18 @@ Result von findCheck ist: true
 
 The pattern requires digits on both sides of a comma and allows one optional leading sign. `matches()` checks the entire input, while `find()` searches for a matching subsequence. The example uses separate `Matcher` objects for those operations, then reads each successful match with `group()`. It validates text rather than converting it to a numeric value.
 
+## Three-account transaction example
+
+After compiling, run `java -cp out oop_bank.Main`. This is a separate example from `bankAccount.Main`. It initializes three independent accounts, performs fixed transactions, and prints their details without terminal input:
+
+| Name | Initial amount | Deposit | Requested withdrawal | Final amount |
+| --- | --- | --- | --- | --- |
+| Mohammed | 10000 | 12000 | 2000 | 20000 |
+| Belal | 100 | 50 | 160 | 150 |
+| Ahmed | 500 | 550 | 10 | 1040 |
+
+Belal's withdrawal is rejected because the available amount is only `150`; the warning leaves that balance unchanged. `depoist` is the existing spelling of the deposit method. Amounts use `float`, and neither deposit nor withdrawal validates that the requested amount is positive. Account numbers are fields on separate objects with no uniqueness check, so Mohammed and Ahmed can share the demo number `4451238`.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
