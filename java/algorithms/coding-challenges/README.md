@@ -97,6 +97,18 @@ After compiling, run `java -cp out easy.Qs`. The main method calls `findQuarter(
 
 Other integer values cause `findQuarter` to throw `IllegalArgumentException` with a message beginning `Invalid month:`. The main method uses its fixed month value rather than parsing command-line arguments.
 
+## Purchase and sale profit example
+
+After compiling, run `java -cp out easy.sumEid` (preserving the lowercase initial letter). It uses fixed arrays and prints `30.0`, without terminal input.
+
+| Index | Purchase price | Sale price | Difference |
+| --- | --- | --- | --- |
+| 0 | 120 | 130 | 10 |
+| 1 | 80 | 90 | 10 |
+| 2 | 100 | 110 | 10 |
+
+`calculateSacrificeProfit` sums `sellPrices[i] - buyPrices[i]` for each purchase entry. It returns the total difference, not a percentage. It does not validate array lengths: a shorter sale array causes an indexing error, while extra sale entries are ignored.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
