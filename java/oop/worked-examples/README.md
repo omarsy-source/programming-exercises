@@ -190,6 +190,17 @@ The program then prints account details and a final line containing the balance 
 
 Deposits of zero or less are rejected. Withdrawals are checked only against the available balance; no positive-amount check is implemented, so negative withdrawal values would increase the balance. This is an in-memory exercise with no persistence.
 
+## Circle object example
+
+After compiling, run `java -cp out oop2.Main`. It creates two independent `Circle` objects without terminal input:
+
+| Object | Radius | Color | Calculation printed |
+| --- | --- | --- | --- |
+| `c1` | `3.0` | `Black` | Area: `Math.PI * 3 * 3`, approximately `28.2743`. |
+| `c2` | `2.0` | `Blue` | Circumference: `Math.PI * 2 * 2`, approximately `12.5664`. |
+
+Each line includes the object's `toString()` representation followed by its calculation. The implementation uses `Math.PI`, not the rounded constant `3.14`, and prints unrounded results. `setRadius` directly assigns its argument without rejecting negative values.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
