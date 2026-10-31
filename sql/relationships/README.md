@@ -57,6 +57,17 @@ Multiple expenses can reference the same person. An expense can also have no ass
 
 The amount column `betrag DECIMAL(7,3)` stores seven decimal digits in total, including three after the decimal point. It is nullable, and the schema declares no check requiring a positive amount. The script contains table definitions only, with no sample inserts or queries to total expenses.
 
+## Hardware table structure
+
+[hardware_specialization.sql](hardware_specialization.sql) declares two independent tables in `Spezialisierung`:
+
+| Table | Shared columns | Type-specific columns |
+| --- | --- | --- |
+| `Tastatur` | `id`, `preis` | `switch`, `layout` |
+| `Monito` | `id`, `preis` | `aufloesung`, `is_ultrawide` |
+
+Each table has its own `id` primary key. No common hardware parent table or foreign-key relationship is declared. Keyboard prices are required (`NOT NULL`), while monitor prices are nullable. The monitor table is spelled `Monito` in the source; the script contains no sample rows or result queries.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
