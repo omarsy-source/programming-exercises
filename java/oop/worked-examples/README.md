@@ -136,6 +136,17 @@ After compiling, run `java -cp out HashMap.HashMap01`. It filters seven fixed na
 
 The three entry lines can appear in a different order because they come from a `HashMap`. A final summary line reports a count of `3`. `Khali=60` is excluded because the condition is strictly greater than 60. Filtering only prints matching entries and counts them; it does not remove entries from the map.
 
+## Name length filtering example
+
+After compiling, run `java -cp out ArrayList.ArrayList01`. It checks five fixed names with `name.length() > 4` and prints:
+
+```text
+Mohammed
+Khalid
+```
+
+The strict comparison excludes `Omar`, which has exactly four characters, along with the shorter names `Lea` and `mia`. Matching names retain their insertion order. The loop only prints them; it does not remove the other entries or read terminal input.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
