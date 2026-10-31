@@ -164,6 +164,18 @@ After compiling, run `java -cp out ArrayList.ArrayList03`. It reads no terminal 
 
 The output is `[1, 2, 3, 4, 9]`. Each value is added to a separate result list only when `contains` reports that it is not already present. This preserves the order of first occurrence; it does not sort the values or modify the original list.
 
+## Text decorator example
+
+After compiling, run `java -cp out Decorator.Main`. It formats the fixed string `"hello"` through progressively wrapped `TextFormatter` objects and prints:
+
+```text
+hello
+HELLO
+HELLO!!!
+```
+
+`PlainText` returns the original text. `UpperCaseDecorator` formats through its inner object before converting the result to uppercase. Finally, `ExclamationDecorator` wraps that uppercase formatter and appends three exclamation marks. Each printed line comes from a new call with `"hello"`; the wrappers compose the formatting behavior. No terminal input is required.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
