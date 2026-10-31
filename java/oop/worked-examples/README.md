@@ -98,6 +98,18 @@ After compiling, run `java -cp out staticexamples.CounterMain`. It creates two `
 
 The constructor increments the same static `count` field for every new object. `Counter.getCount()` reads that shared value; it does not increment it. This example counts constructor calls, rather than tracking how many objects are still reachable. The value is held in memory and starts at zero in a new Java process.
 
+## Static math utility example
+
+After compiling, run `java -cp out staticexamples.MathUtilsMain`. It uses fixed values and requires no terminal input:
+
+| Step | Call | Result |
+| --- | --- | --- |
+| Add | `MathUtils.add(5, 10)` | `15` |
+| Multiply the sum by itself | `MathUtils.multiply(15, 15)` | `225` |
+| Check evenness | `MathUtils.isEven(225)` | `false` |
+
+The main method prints these results on one line. Its final label says `Ist die Zahl positive`, but the invoked method checks whether the value is even, not whether it is positive. Thus, `false` describes the odd value `225`; it does not mean that value is negative.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
