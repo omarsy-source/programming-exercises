@@ -81,6 +81,18 @@ Exercise03.Juice
 
 The parameter `List<? extends Drink>` accepts lists whose element type is `Drink` or a subclass. The method prints each object's fully qualified runtime class name. The main method explicitly calls the implementation in `Drink`; the separate, empty static `Beer.describeAll(List)` method is not called.
 
+## Generic array printing example
+
+After compiling, run `java -cp out Exercise02.Main`. It calls the same `printArry(T[] array)` method for three fixed arrays, without terminal input:
+
+| Array type | Elements | Output behavior |
+| --- | --- | --- |
+| `Integer[]` | 5 | Prints `[1, 2, 3, 4, 5]`. |
+| `Double[]` | 3 | Prints `[1.5, 3.9, 7.8]`. |
+| `String[]` | 4 | Prints the four supplied strings in their original order. |
+
+Each call uses `Arrays.toString` and prints one line; the method does not sort or modify the array. The numeric examples use wrapper arrays (`Integer[]` and `Double[]`), since this generic `T[]` parameter does not accept primitive arrays such as `int[]`.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
