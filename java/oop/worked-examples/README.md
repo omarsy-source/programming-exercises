@@ -231,6 +231,19 @@ After compiling, run `java -cp out oop_Library.Main` (the package name includes 
 
 The library stores books in an in-memory `ArrayList` and displays them in insertion order. `search(title)` and `removeBook(title)` use exact, case-sensitive title comparisons and stop at the first match. A failed search prints `Sorry we do not have this Book!`; a failed removal has no output. The demo does not call either operation, and adding a book does not check for duplicate titles.
 
+## Decimal regex matching example
+
+After compiling, run `java -cp out general.Example01`. It applies `[-+]?[0-9]+,[0-9]+` to the fixed string `+10,5`, without terminal input. Expected output:
+
+```text
+Result von matchCheck ist: true
+Result von findCheck ist: true
++10,5
++10,5
+```
+
+The pattern requires digits on both sides of a comma and allows one optional leading sign. `matches()` checks the entire input, while `find()` searches for a matching subsequence. The example uses separate `Matcher` objects for those operations, then reads each successful match with `group()`. It validates text rather than converting it to a numeric value.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
