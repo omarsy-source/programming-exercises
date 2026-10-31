@@ -219,6 +219,12 @@ After compiling, run `java -cp out oop_student.Main`. It constructs an `Undergra
 
 Although `s1` is declared as `Student`, `s1.printInfo()` dispatches to the `UndergradStudent` override. That override calls `super.printInfo()` to print the inherited fields before printing its own `major` field. Its constructor similarly calls `super(name, age)` before storing the major; the no-argument `Student` constructor is not used in this run.
 
+## Sports car speed limit example
+
+After compiling, run `java -cp out oop_car.Main`. It creates a `SportsCar` with brand `BMW` and initial speed `201.0`, held through a `Car` reference, then calls `accelerate(100)` without terminal input.
+
+The overridden method checks whether `speed + increase` is greater than `300`. Here the proposed speed is `301.0`, so it prints the existing limit warning and leaves the speed at `201.0`; it does not clamp the speed to `300`. An increase that reaches exactly `300` is accepted and delegated to `Car.accelerate()`, which updates and prints the speed.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
