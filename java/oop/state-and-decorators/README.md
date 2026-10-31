@@ -61,6 +61,14 @@ Der gesamte Schaden aller Spieler 70
 
 These counters belong to the class rather than individual players. `attack` returns the updated cumulative damage, not just that attack's damage; the main method ignores that return value. The statistics are held in memory and start again in a new Java process.
 
+## Timestamp logger example
+
+After compiling, run `java -cp out Exercise02.LoggerSystemMain`. It obtains the shared `Logger` through `getInstance()` and logs one fixed message, with no terminal input.
+
+The output is one line beginning with `Neues Login`, followed by the current `LocalDateTime`. There are two spaces between the message and timestamp: one is already present in the supplied message and one is added by `log`.
+
+The timestamp comes from the running machine's local clock and includes no timezone offset. Its value changes between runs. This logger prints to the console only; it does not create a log file or retain a message history.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
