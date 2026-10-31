@@ -83,6 +83,19 @@ A member can have no plan or one assigned plan; multiple members can share the s
 
 The script defines tables only, with no sample inserts or queries. Accented identifiers such as `Übungen` and `Trainingspläne` retain their source spelling.
 
+## Vulnerability inventory query result
+
+[vulnerability_inventory.sql](vulnerability_inventory.sql) inserts ten target systems, ten vulnerability records, and eight associations. Its final query is expected to return:
+
+| betriebssystem | total |
+| --- | --- |
+| Windows 10 | 4 |
+| CentOS 7 | 3 |
+
+`COUNT(*)` counts association rows per operating-system name. The inner join omits systems without associations, and `HAVING total > 2` excludes the Windows Server 2019 group with one association. The composite key prevents duplicate system/vulnerability pairs; both foreign keys use `ON DELETE CASCADE` to remove associations when a referenced row is deleted.
+
+These are results derived from exercise data, not findings from scanning real systems. MySQL execution has not been performed.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
