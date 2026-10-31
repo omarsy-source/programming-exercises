@@ -68,6 +68,14 @@ The amount column `betrag DECIMAL(7,3)` stores seven decimal digits in total, in
 
 Each table has its own `id` primary key. No common hardware parent table or foreign-key relationship is declared. Keyboard prices are required (`NOT NULL`), while monitor prices are nullable. The monitor table is spelled `Monito` in the source; the script contains no sample rows or result queries.
 
+## University roles in one table
+
+[university_roles.sql](university_roles.sql) defines `SingleTable` in the `uni` database. It uses one primary key (`id`) and a required `name` column, alongside nullable `personalnummer`, `matrikelnummer`, and `role` columns.
+
+The `role TINYINT` column has no documented numeric-to-role mapping in the script. No constraint requires either identifier to be present, makes those identifiers unique, or ties them to a particular role. Consequently, the schema itself allows both identifiers to be filled or both to be `NULL`.
+
+The script contains no sample rows or queries. Role meanings and validation beyond these declared constraints should not be inferred from the filename.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
