@@ -147,6 +147,17 @@ Khalid
 
 The strict comparison excludes `Omar`, which has exactly four characters, along with the shorter names `Lea` and `mia`. Matching names retain their insertion order. The loop only prints them; it does not remove the other entries or read terminal input.
 
+## List sum and average example
+
+After compiling, run `java -cp out ArrayList.ArrayList02`. It processes the fixed list `[12, 95, 123]` and takes no terminal input.
+
+| Calculation | Result |
+| --- | --- |
+| Sum: `12 + 95 + 123` | `230.0` |
+| Average: `230.0 / 3` | Approximately `76.6667` |
+
+The active enhanced-for loop accumulates into a `double`, so the average uses floating-point division even though the list holds integers. The program prints the sum and average on separate labeled lines without rounding. The alternative indexed loop is commented out and produces no additional output.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
