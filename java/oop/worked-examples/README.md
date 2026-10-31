@@ -201,6 +201,12 @@ After compiling, run `java -cp out oop2.Main`. It creates two independent `Circl
 
 Each line includes the object's `toString()` representation followed by its calculation. The implementation uses `Math.PI`, not the rounded constant `3.14`, and prints unrounded results. `setRadius` directly assigns its argument without rejecting negative values.
 
+## Car setter example
+
+After compiling, run `java -cp out oop1.Main`. It assigns the name `KIA` and model `2014`, then prints a model warning followed by `KIA 2014`, without terminal input.
+
+`setModel(m)` stores `m` before checking whether it is greater than `2014`. Values of `2014` or less therefore trigger `We do not accept this model!` but remain stored and are returned by `getModel()`. The warning does not reject or undo the assignment.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
