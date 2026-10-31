@@ -85,6 +85,22 @@ Textfeld bei ( 3 , 4 ) gerendert
 
 `FormElement` is an abstract class with an abstract `render()` method. Each subclass supplies its own implementation, which is selected when `render()` is called through the base-class reference. Here, rendering only prints a console message; the example opens no graphical window and takes no terminal input.
 
+## Vehicle example
+
+After compiling, run `java -cp out Exercise03.Main`. It uses fixed constructor values and reads no terminal input.
+
+Expected output:
+
+```text
+Model des Autos 2017
+Die Speed ist 131.5
+Diesel
+Model des Fahrrad 2020
+Die Speed ist 32.0
+```
+
+Both classes extend the abstract `Vehicle` class and implement `move()` by printing their stored model and speed. Only `Car` implements the interface spelled `Refuelabe` in the source. Its `refuel()` method prints `Diesel`; it does not update a fuel quantity. The bicycle is stored in a `Vehicle` reference, demonstrating the subclass implementation of `move()`.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
