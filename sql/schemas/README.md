@@ -96,6 +96,14 @@ The script defines tables only, with no sample inserts or queries. Accented iden
 
 These are results derived from exercise data, not findings from scanning real systems. MySQL execution has not been performed.
 
+## App store sample data scope
+
+[app_store_hub.sql](app_store_hub.sql) recreates `appStoreHub` and defines six tables: `users`, `developers`, `apps`, `downloads`, `reviews`, and `subscriptions`. Its supplied inserts populate only `users`, with 50 rows; the other five tables remain empty after a fresh run. The script includes no `SELECT` query to display the data.
+
+Each app requires an existing developer. Downloads, reviews, and subscriptions each require existing user and app rows, so follow-up inserts must create developers and apps before those dependent records. The schema does not declare a unique `(user_id, app_id)` pair in those three tables; their separate primary keys allow repeated pairs.
+
+These notes describe the supplied SQL source; the script has not been executed against MySQL.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
