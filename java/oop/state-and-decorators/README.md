@@ -69,6 +69,19 @@ The output is one line beginning with `Neues Login`, followed by the current `Lo
 
 The timestamp comes from the running machine's local clock and includes no timezone offset. Its value changes between runs. This logger prints to the console only; it does not create a log file or retain a message history.
 
+## Character buff example
+
+After compiling, run `java -cp out Exercise03.Main`. It prints four statistics blocks while wrapping the same character through successive decorators, without terminal input:
+
+| Stage | Power | Description |
+| --- | --- | --- |
+| `BaseCharacter` | 10 | `Einfacher Held` |
+| Add `StrengthBuff` | 15 | `Einfacher Held` |
+| Add `SpeedBuff` | 15 | `Einfacher Held schnell` |
+| Add `ArmorBuff` | 18 | `Einfacher Held schnell gepanzert` |
+
+Strength adds five power without changing the description. Speed adds only the description suffix, while armor adds three power and its suffix. Each wrapper delegates to the previously wrapped character, so earlier effects remain present.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
