@@ -56,6 +56,20 @@ Expected output:
 
 `getPrimesBetween(a, b)` skips values below `2`, checks each candidate for divisors, and returns an array shortened to the number of primes found. The returned array contains the prime values themselves, with no unused trailing zeroes. The main method does not parse command-line arguments to change the range.
 
+## Fasting duration example
+
+After compiling, run `java -cp out easy.FastingHours`. It uses three fixed pairs of times and reads no terminal input:
+
+| Start | End | Duration |
+| --- | --- | --- |
+| `04:30` | `18:30` | 14 hours |
+| `04:29` | `18:31` | 14 hours, 2 minutes |
+| `04:28` | `18:32` | 14 hours, 4 minutes |
+
+The total is approximately `42.1` decimal hours, or 42 hours and 6 minutes. The program prints the unrounded `double`, so small floating-point rounding differences can appear in the displayed value.
+
+The method parses hours and minutes around `:` and sums same-day differences. It does not add 24 hours for an overnight interval or validate matching array lengths and valid clock times.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
