@@ -36,6 +36,19 @@ The script defines the schema only. It contains no sample inserts, deletes, or r
 
 The script declares no cascading delete action. It defines tables only, with no sample rows or result queries. The required group-topic column is spelled `theama` in the source; use that exact spelling in follow-up queries.
 
+## Lecture schedule schema
+
+[lecture_schedules.sql](lecture_schedules.sql) links each `Termin` row to one `Vorlesung` through the non-null `Vorlesung_id` foreign key.
+
+| Table | Primary key |
+| --- | --- |
+| `Vorlesung` | `Vorlesung_id` |
+| `Termin` | `(Termin_id, Vorlesung_id)` |
+
+A session ID can be reused for another lecture; only the pair must be unique. The required `raum` and `datum` columns store the room and date. No uniqueness constraint prevents two sessions from sharing a room and date.
+
+This script and `levels_and_obstacles.sql` both begin with `CREATE DATABASE Komposition` without `IF NOT EXISTS`. Running one after the other in the same environment can therefore fail at database creation. They are separate schema exercises, not consecutive setup steps.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
