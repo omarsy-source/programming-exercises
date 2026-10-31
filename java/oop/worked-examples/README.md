@@ -213,6 +213,12 @@ After compiling, run `java -cp out oop_animal.Main`. The active code creates a `
 
 `Animal.printInfo()` first prints `Name: Dog`, then calls `move()` and `makeSound()` in that order. Those calls dispatch to the `Dogs` overrides. In the existing source, the sound-like message is inside `move()` and the movement-like message is inside `makeSound()`, so interpret the output using the actual method bodies. The bird and cat examples in `Main` are commented out and produce no output.
 
+## Undergraduate student inheritance example
+
+After compiling, run `java -cp out oop_student.Main`. It constructs an `UndergradStudent` with the fixed name `Omar`, age `25`, and the existing Arabic major string. It requires no terminal input and prints two lines: the name and age, followed by the major.
+
+Although `s1` is declared as `Student`, `s1.printInfo()` dispatches to the `UndergradStudent` override. That override calls `super.printInfo()` to print the inherited fields before printing its own `major` field. Its constructor similarly calls `super(name, age)` before storing the major; the no-argument `Student` constructor is not used in this run.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
