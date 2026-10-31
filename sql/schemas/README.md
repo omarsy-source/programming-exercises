@@ -42,6 +42,21 @@ The query orders counts from largest to smallest. The two courses with a count o
 
 These results are derived from the supplied inserts and query; they have not been verified by running MySQL.
 
+## Lecture enrollment join result
+
+[lecture_enrollments.sql](lecture_enrollments.sql) inserts three students, two lectures, and four rows in `student_vorlesung_zuordnung`. Its final join is expected to return these rows, in no guaranteed order:
+
+| name | matrikel_nr | titel |
+| --- | --- | --- |
+| Omar | 800625 | DB |
+| Omar | 800625 | Pro2 |
+| Ahmed | 800726 | DB |
+| Ramni | 800727 | Pro2 |
+
+The junction table's composite primary key `(matrikel_nr, vorlesung_id)` prevents the same student/lecture pair from being inserted twice, while allowing each student to attend multiple lectures. The inner joins display matching enrollments rather than every student or lecture independently.
+
+The rows above are derived from the supplied inserts and query; MySQL execution has not been performed.
+
 ## Before running
 
 Follow the [SQL running instructions](../README.md#running-a-script) and review the [existing limitations](../README.md#existing-limitations). Scripts may reuse or recreate named databases, so use an isolated exercise environment and run one script at a time.
