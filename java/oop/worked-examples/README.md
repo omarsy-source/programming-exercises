@@ -158,6 +158,12 @@ After compiling, run `java -cp out ArrayList.ArrayList02`. It processes the fixe
 
 The active enhanced-for loop accumulates into a `double`, so the average uses floating-point division even though the list holds integers. The program prints the sum and average on separate labeled lines without rounding. The alternative indexed loop is commented out and produces no additional output.
 
+## List deduplication example
+
+After compiling, run `java -cp out ArrayList.ArrayList03`. It reads no terminal input and processes the fixed list `[1, 1, 2, 2, 3, 3, 4, 9]`.
+
+The output is `[1, 2, 3, 4, 9]`. Each value is added to a separate result list only when `contains` reports that it is not already present. This preserves the order of first occurrence; it does not sort the values or modify the original list.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
