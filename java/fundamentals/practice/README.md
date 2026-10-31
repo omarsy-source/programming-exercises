@@ -101,6 +101,21 @@ java -cp out Arrays.Arrays00
 
 The existing tests import JUnit 4 and/or JUnit Jupiter. Those libraries are not bundled, so the complete source set was not compiled or run as a test suite. The 65 production source files compile without the tests. Use `@production-sources.txt` instead of `@sources.txt` to compile that subset.
 
+## Currency conversion example
+
+After compiling the production sources, run `java -cp out Methods.Method00`. Enter the source currency code, destination currency code, and numeric amount, in that order. Codes are case-sensitive.
+
+| From | To | Fixed multiplier in the source |
+| --- | --- | --- |
+| USD | EUR | 0.92 |
+| EUR | USD | 1.09 |
+| USD | SAR | 3.75 |
+| SAR | USD | 0.27 |
+
+For example, `USD`, `EUR`, and `100` produce a result of 92 euros formatted to two decimal places. Decimal input and output separators follow the Java process's default locale.
+
+These are hard-coded exercise rates, not current exchange rates. Unsupported pairs return `Ungültige Währung!` after the amount has been read. Invalid numeric input is not caught, and the program performs one conversion per run.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
