@@ -84,6 +84,19 @@ For the three example strings, the method's behavior is:
 
 It first tries `Integer.parseInt`, then tries `Double.parseDouble` if integer parsing throws `NumberFormatException`. The labels describe which parsing attempt succeeds; the method returns a label string, not the parsed numeric value.
 
+## Month-to-quarter example
+
+After compiling, run `java -cp out easy.Qs`. The main method calls `findQuarter(6)` and prints `2`, without terminal input.
+
+| Month numbers | Returned quarter |
+| --- | --- |
+| `1, 2, 3` | `1` |
+| `4, 5, 6` | `2` |
+| `7, 8, 9` | `3` |
+| `10, 11, 12` | `4` |
+
+Other integer values cause `findQuarter` to throw `IllegalArgumentException` with a message beginning `Invalid month:`. The main method uses its fixed month value rather than parsing command-line arguments.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
