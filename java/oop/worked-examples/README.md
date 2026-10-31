@@ -124,6 +124,18 @@ Expected output:
 
 `findMax(Comparable[])` compares each element with the current maximum using `compareTo`. It returns the maximum element without sorting or modifying the array. The method initializes the maximum from index zero, so it requires a non-empty array; its raw `Comparable` parameter also assumes the elements can be compared with one another.
 
+## Grade map filtering example
+
+After compiling, run `java -cp out HashMap.HashMap01`. It filters seven fixed name/grade entries with the strict condition `grade > 60`, without terminal input.
+
+| Printed entry | Grade |
+| --- | --- |
+| `Omar=87` | 87 |
+| `Osama=90` | 90 |
+| `Wali=67` | 67 |
+
+The three entry lines can appear in a different order because they come from a `HashMap`. A final summary line reports a count of `3`. `Khali=60` is excluded because the condition is strictly greater than 60. Filtering only prints matching entries and counts them; it does not remove entries from the map.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
