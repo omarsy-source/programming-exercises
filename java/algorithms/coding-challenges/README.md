@@ -70,6 +70,20 @@ The total is approximately `42.1` decimal hours, or 42 hours and 6 minutes. The 
 
 The method parses hours and minutes around `:` and sums same-day differences. It does not add 24 hours for an overnight interval or validate matching array lengths and valid clock times.
 
+## String type classification example
+
+After compiling, run `java -cp out easy.Forms`. The main method passes the fixed string `"4.5"` to `input_type` and prints `double`; it takes no terminal input. The other declared strings are not passed to the method by this main routine.
+
+For the three example strings, the method's behavior is:
+
+| Value | Returned label |
+| --- | --- |
+| `"10"` | `integer` |
+| `"4.5"` | `double` |
+| `"Hallo"` | `string` |
+
+It first tries `Integer.parseInt`, then tries `Double.parseDouble` if integer parsing throws `NumberFormatException`. The labels describe which parsing attempt succeeds; the method returns a label string, not the parsed numeric value.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
