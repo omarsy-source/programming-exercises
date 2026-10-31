@@ -176,6 +176,20 @@ HELLO!!!
 
 `PlainText` returns the original text. `UpperCaseDecorator` formats through its inner object before converting the result to uppercase. Finally, `ExclamationDecorator` wraps that uppercase formatter and appends three exclamation marks. Each printed line comes from a new call with `"hello"`; the wrappers compose the formatting behavior. No terminal input is required.
 
+## Bank account balance example
+
+After compiling, run `java -cp out bankAccount.Main` (the package name is case-sensitive). It uses fixed demo values without terminal input:
+
+| Step | Balance |
+| --- | --- |
+| Construct the account | `987.0` |
+| Withdraw `600.0` | `387.0` |
+| Deposit `200.0` | `587.0` |
+
+The program then prints account details and a final line containing the balance and `toString()` representation. The `IBAN` label displays the integer demo account number, not a validated IBAN.
+
+Deposits of zero or less are rejected. Withdrawals are checked only against the available balance; no positive-amount check is implemented, so negative withdrawal values would increase the balance. This is an in-memory exercise with no persistence.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
