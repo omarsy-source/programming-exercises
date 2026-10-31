@@ -110,6 +110,20 @@ After compiling, run `java -cp out staticexamples.MathUtilsMain`. It uses fixed 
 
 The main method prints these results on one line. Its final label says `Ist die Zahl positive`, but the invoked method checks whether the value is even, not whether it is positive. Thus, `false` describes the odd value `225`; it does not mean that value is negative.
 
+## Generic values and maximum example
+
+After compiling, run `java -cp out Generic.Main`. It displays the two values in a `Generic<Integer, Double>` object, then finds the maximum of `[3, 2, 5, 9, 78]`, without terminal input.
+
+Expected output:
+
+```text
+10
+14.3
+78
+```
+
+`findMax(Comparable[])` compares each element with the current maximum using `compareTo`. It returns the maximum element without sorting or modifying the array. The method initializes the maximum from index zero, so it requires a non-empty array; its raw `Comparable` parameter also assumes the elements can be compared with one another.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
