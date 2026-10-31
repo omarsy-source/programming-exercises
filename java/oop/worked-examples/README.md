@@ -225,6 +225,12 @@ After compiling, run `java -cp out oop_car.Main`. It creates a `SportsCar` with 
 
 The overridden method checks whether `speed + increase` is greater than `300`. Here the proposed speed is `301.0`, so it prints the existing limit warning and leaves the speed at `201.0`; it does not clamp the speed to `300`. An increase that reaches exactly `300` is accepted and delegated to `Car.accelerate()`, which updates and prints the speed.
 
+## Library list example
+
+After compiling, run `java -cp out oop_Library.Main` (the package name includes an uppercase `L`). It creates an empty library, adds `Book("Java", "Omar", 2010)`, and displays all books without terminal input. The console first reports that `Java` was added, then displays its title, author, and publication year.
+
+The library stores books in an in-memory `ArrayList` and displays them in insertion order. `search(title)` and `removeBook(title)` use exact, case-sensitive title comparisons and stop at the first match. A failed search prints `Sorry we do not have this Book!`; a failed removal has no output. The demo does not call either operation, and adding a book does not check for duplicate titles.
+
 ## Import notes
 
 Identifiers use English and source explanations use German. Existing calculations, conditions, demo values, and output literals are preserved. Some examples intentionally remain incomplete or have existing behavioral limitations.
